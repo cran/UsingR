@@ -1,0 +1,23 @@
+"cabinet" <-
+structure(list(name = structure(c(10, 5, 12, 4, 7, 6, 3, 8, 19, 
+15, 11, 13, 9, 18, 14, 2, 16, 17, 1), .Label = c("Ann Veneman", 
+"Anthony Principi", "Christine Whitman", "Colin Powell", "Dick Cheney", 
+"Donald Evans", "Donald Rumsfeld", "Elaine Chao", "Gale Norton", 
+"George W. Bush", "John Ashcroft", "John Snow", "Mel Martinez", 
+"Norman Mineta", "Robert Zoellick", "Rod Paige", "Spencer Abraham", 
+"Tom Ridge", "Tommy Thompson"), class = "factor"), position = structure(c(5, 
+19, 16, 14, 7, 6, 4, 13, 10, 18, 3, 11, 17, 12, 15, 2, 8, 9, 
+1), .Label = c("  Sec. of Agriculture", "  Sec. of Veterans Aff.", 
+" Attorney General", " EPA Admin.", " President", " Sec. of Commerce", 
+" Sec. of Defense", " Sec. of Education", " Sec. of Energy", 
+" Sec. of HHS", " Sec. of HUD", " Sec. of Homeland Sec.", " Sec. of Labor", 
+" Sec. of State", " Sec. of Transportation", " Sec. of Treasury", 
+" Sec. of the Interior", " U.S. Trade Rep.", " Vice President"
+), class = "factor"), est.dividend.cg = c(23947, 493798, 5500000, 
+1250000, 1300000, 625448, 527428, 223413, 143001, 36002, 50000, 
+34000, 15800, 10106, 1600, 1400, 1000, 402, 200), est.tax.savings = c(5651, 
+116002, 331594, 109506, 87327, 68370, 32444, 21074, 6590, 4676, 
+7500, 8024, 864, 560, 240, 330, 150, 60, 30)), .Names = c("name", 
+"position", "est.dividend.cg", "est.tax.savings"), class = "data.frame", row.names = c("1", 
+"2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", 
+"14", "15", "16", "17", "18", "19"))

@@ -1,0 +1,16 @@
+"emissions" <-
+  structure(list(GDP = c(8083000, 3080000, 1740000, 1320000, 1242000, 
+                   1240000, 692000, 658000, 642400, 394000, 343900, 280700, 236300, 
+                   176200, 174100, 172400, 149500, 137400, 124900, 122500, 120500, 
+                   114200, 111900, 102100, 73200, 59900), perCapita = c(29647, 24409, 
+                                                            21197, 22381, 21010, 21856, 4727, 21221, 16401, 20976, 21755, 
+                                                            7270, 23208, 19773, 21390, 23696, 15074, 12833, 2507, 22868, 
+                                                            27149, 5136, 10885, 19793, 7186, 16488), CO2 = c(6750, 1320, 
+                                                                                                       1740, 550, 675, 540, 2000, 700, 370, 480, 240, 400, 145, 75, 
+                                                                                                       80, 54, 75, 125, 420, 75, 56, 160, 150, 76, 85, 63)), .Names = c("GDP", 
+                                                                                                                                                               "perCapita", "CO2"), class = "data.frame", row.names = c("UnitedStates", 
+                                                                                                                                                                                                            "Japan", "Germany", "France", "UnitedKingdom", "Italy", "Russia", 
+                                                                                                                                                                                                            "Canada", "Spain", "Australia", "Netherlands", "Poland", "Belgium", 
+                                                                                                                                                                                                            "Sweden", "Austria", "Switzerland", "Portugal", "Greece", "Ukraine", 
+                                                                                                                                                                                                            "Denmark", "Norway", "Romania", "CzechRepublic", "Finland", "Hungary", 
+                                                                                                                                                                                                            "Ireland"))

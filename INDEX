@@ -1,0 +1,105 @@
+BushApproval            U.S. President George Bush approval ratings
+DOTplot                 Make big DOT plot likestripchart
+MLBattend               Major league baseball attendance data
+OBP                     On base percentage for 2002 major league
+                        baseball season
+age.universe            Best estimate of the age of the universe
+alaska.pipeline         Comparison of in-field and laboratory
+                        measurement of defects
+alltime.movies          Top movies of all time
+babies                  Mothers and their babies data
+babyboom                Babyboom: data for 44 babies born in one
+                        24-hour period.
+batting                 Batting statistics for 2002 baseball season
+baycheck                Population estimate of type of Bay Checkerspot
+                        butterfly
+best.times              Best track and field times by age and distance
+breakdown               Time of insulating fluid to breakdown
+bright.stars            List of bright stars with Hipparcos catalog
+                        number
+brightness              Brightness of 966 stars
+bumpers                 Bumper repair costs for various automobiles
+bycatch                 Number of Albatrosses accidentaly caught
+                        during a fishing haul
+cabinet                 Estimated tax savings for US President Bush's
+                        cabinet
+cancer                  cancer survival times
+carsafety               Fatality information in U.S. for several
+                        popular cars
+central.park            Weather in Central Park NY in May 2003
+central.park.cloud      Type of day in Central Park, NY May 2003
+cfb                     Bootstrap sample from the Survey of Consumer
+                        Finances
+coins                   The coins in my change bin
+deflection              Deflection under load
+diamond                 Price by size for diamond rings
+dottodot                Dot-to-dot puzzle
+dvdsales                Monthly DVD player sales since introduction to
+                        May 2004
+emissions               CO2 emissions data and gross domestic product
+                        for 26 countries
+ewr                     Taxi in and taxi out times at EWR (Newark)
+                        airport for 1999-2001
+exec.pay                Direct compensation for 199 United States CEOs
+                        in the year 2000
+fat                     Body measurements to predict percentage of
+                        body fat in males
+father.son              Galton's data set on heights of fathers and
+                        their sons
+female.inc              Income distribution for females in 2001
+firstchi                Age of mother at birth of first child
+five.yr.temperature     Five years of weather in New York City
+florida                 County-by-county results of year 2000 US
+                        presidential election in Florida
+galileo                 Galileo data on falling bodies
+galton                  Galton's height data for parents and children
+getAnswer               Display answers to selected problems
+grades                  Current and previous grades
+grip                    Effects of cross-country ski-pole grip
+hall.fame               Data frame containing baseball statistics
+                        including Hall of Fame membership
+healthy                 Healthy or not?
+homedata                Property assessments for Maplewood NJ
+kid.weights             Weight and height measurement for a sample of
+                        U.S. children
+last.tie                Last tie in 100 coin tosses
+lawsuits                Law suit settlements
+mandms                  Proportions of colors in various M and M's
+                        varieties
+math                    Standardized math scores
+maydow                  Dow Jones industrial average and May maximum
+                        temperature
+midsize                 Price of new and used of three mid-sized cars
+mw.ages                 Age distribution in year 2000 in Maplewood New
+                        Jersey
+nba.draft               NBA draft lottery odds for 2002
+normtemp                Body temperature and heart rate of 130 health
+                        individuals
+npdb                    National Practioner Data Bank
+nym.2002                Random sample of 2002 New York City Marathon
+                        finishers
+oral.lesion             Oral lesion location by town
+pi2000                  first 2000 digits of pi
+primes                  Primes numbers less than 2003
+reaction.time           Reaction time with cell phone usage
+reddrum                 Growth of red drum
+salmon.rate             Simulated Data on Rate of Recruitment for
+                        Salmon
+samhda                  Substance Abuse and Mental Health Data for
+                        teens
+scatter.with.hist       Scatterplot with histograms
+scrabble                Distribution of Scrabble pieces
+sim                     Function to simulate sampling distributions
+squareplot              Create a squareplot alternative to a segmented
+                        barplot
+stud.recs               Student records
+student.expenses        Some simulated data on student expenses
+superbarplot            super segmented barplot
+tastesgreat             Does new goo taste great?
+too.young               What age is too young for a male to data a
+                        female?
+twins                   Burt's IQ data for twins
+u2                      Song and lengths for U2 albums
+urchin.growth           Data on growth of sea urchins
+yellowfin               Yellow fin tuna catch rate in Tropical Indian
+                        Ocean
