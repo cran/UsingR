@@ -1,7 +1,7 @@
 \name{father.son}
 \alias{father.son}
 \docType{data}
-\title{Galton's data set on heights of  fathers and their sons}
+\title{Pearson's data set on heights of  fathers and their sons}
 \description{
   1078 measurements of a father's height and his son's height.
 }
@@ -14,7 +14,8 @@
   }
 }
 \details{
-  Data set used by Galton to investigate regression.
+  Data set used by Pearson to investigate regression. See data set
+  \code{galton} for data set used by Galton.
 }
 \source{
   Read into R by the command

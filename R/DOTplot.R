@@ -47,7 +47,7 @@ DOTplot.default <-
     
     ## create window
     plot.new()
-    plot.window(xlim=range(x),
+    plot.window(xlim=range(x,na.rm=TRUE),
                 ylim=c(0-delta,heights[length(heights)] + max.dots[length(max.dots)]),
                 bty="L"
                 )

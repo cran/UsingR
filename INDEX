@@ -3,6 +3,8 @@ DOTplot                 Make big DOT plot likestripchart
 MLBattend               Major league baseball attendance data
 OBP                     On base percentage for 2002 major league
                         baseball season
+QQplot                  Creates a qqplot with shaded density estimate
+UsingR                  Opens browser to UsingR webpages
 age.universe            Best estimate of the age of the universe
 alaska.pipeline         Comparison of in-field and laboratory
                         measurement of defects
@@ -44,7 +46,7 @@ exec.pay                Direct compensation for 199 United States CEOs
                         in the year 2000
 fat                     Body measurements to predict percentage of
                         body fat in males
-father.son              Galton's data set on heights of fathers and
+father.son              Pearson's data set on heights of fathers and
                         their sons
 female.inc              Income distribution for females in 2001
 firstchi                Age of mother at birth of first child
