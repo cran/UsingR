@@ -1,0 +1,12 @@
+"simple.lag" <-
+  function(x, lag, FUN=mean)
+{
+  ## from Martyn Plummer <plummer@iarc.fr>
+  FUN=match.fun(FUN)
+  n <- length(x)
+  y <- numeric(n-lag)
+  for (i in (1+lag):n) {
+    y[i - lag] <- FUN(x[(i-lag):i])
+  }
+  return(y)
+}
