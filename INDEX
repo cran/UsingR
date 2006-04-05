@@ -160,6 +160,7 @@ smokyph                 Water pH levels at 75 water samples in the
                         Great Smoky Mountains
 south                   Murder rates for 30 Southern US cities
 southernosc             Southern Oscillations
+sp500.excess            Excess returns of S&P 500
 squareplot              Create a squareplot alternative to a segmented
                         barplot
 stud.recs               Student records
