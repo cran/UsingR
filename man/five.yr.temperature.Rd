@@ -5,7 +5,7 @@
 \description{
   Five years of maximum temperatures in New York City
 }
-\usage{data(five.yr.temperatures)}
+\usage{data(five.yr.temperature)}
 \format{
   A data frame with 2,439 observations on the following 3 variables.
   \describe{
