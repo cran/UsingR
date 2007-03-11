@@ -1,7 +1,7 @@
-\name{densityplot}
-\alias{densityplot}
-\alias{densityplot.default}
-\alias{densityplot.formula}
+\name{DensityPlot}
+\alias{DensityPlot}
+\alias{DensityPlot.default}
+\alias{DensityPlot.formula}
 %- Also NEED an `\alias' for EACH other topic documented here.
 \title{ Plots densities of data }
 \description{
@@ -10,7 +10,7 @@
   histograms are too crowded. The usage is similar to side-by-side boxplots.
 }
 \usage{
-densityplot(x, ...)
+DensityPlot(x, ...)
 }
 %- maybe also `usage' for other objects documented here.
 \arguments{
@@ -33,11 +33,11 @@ as it serves the same utility: comparing distributions.}
 ## taken from boxplot
 ## using a formula
 data(InsectSprays)
-densityplot(count ~ spray, data = InsectSprays)
+DensityPlot(count ~ spray, data = InsectSprays)
 ## on a matrix (data frame)
 mat <- cbind(Uni05 = (1:100)/21, Norm = rnorm(100),
              T5 = rt(100, df = 5), Gam2 = rgamma(100, shape = 2))
-densityplot(data.frame(mat))
+DensityPlot(data.frame(mat))
 
 
 }

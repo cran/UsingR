@@ -4,10 +4,10 @@
 
 ## "x" can be a dataframe, a formula x ~ f, or a sequence of variable
 ## names as in boxplot.
-densityplot <- function(x, ...) UseMethod("densityplot")
+DensityPlot <- function(x, ...) UseMethod("DensityPlot")
 
 
-densityplot.default <-
+DensityPlot.default <-
   function(x,...,
            bw = "nrd0",
            do.legend = "auto",
@@ -74,7 +74,7 @@ densityplot.default <-
     }
 }                                     # end of default
                                
-densityplot.formula <- function(formula, data = NULL, ..., subset)
+DensityPlot.formula <- function(formula, data = NULL, ..., subset)
 {
     if(missing(formula) || (length(formula) != 3))
         stop("formula missing or incorrect")
@@ -85,10 +85,10 @@ densityplot.formula <- function(formula, data = NULL, ..., subset)
     m[[1]] <- as.name("model.frame")
     mf <- eval(m, parent.frame())
     response <- attr(attr(mf, "terms"), "response")
-    densityplot(split(mf[[response]], mf[-response]), ...)
+    DensityPlot(split(mf[[response]], mf[-response]), ...)
 }
 
-## Make a simple density plot call from densityplot. values are x,y to plot
+## Make a simple density plot call from DensityPlot. values are x,y to plot
 "dnstyplt" <-
   function(x,y,center,
            add=TRUE,
