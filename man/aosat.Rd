@@ -28,7 +28,7 @@ z = zoo(aosat[,2], order.by=aosat[,1])
 plot(z)
 ## yearly
 plot(aggregate(z, floor(index(z)), mean))
-## decade long means
+## decade-long means
 plot(aggregate(z, 10*floor(index(z)/10), mean))
 }
 }

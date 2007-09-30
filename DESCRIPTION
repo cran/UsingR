@@ -1,6 +1,6 @@
 Package: UsingR
-Version: 0.1-6
-Date: 2007-03-11
+Version: 0.1-7
+Date: 2007-09-30
 Title: Data sets for the text  "Using R for Introductory Statistics"
 Author: John Verzani <verzani@math.csi.cuny.edu>
 Maintainer: John Verzani <verzani@math.csi.cuny.edu>
@@ -10,4 +10,4 @@ License: GPL version 2 or newer
 URL: http://www.math.csi.cuny.edu/UsingR
 LazyLoad: TRUE
 LazyData: TRUE
-Packaged: Sun Mar 11 21:58:09 2007; verzani
+Packaged: Tue Oct  9 00:07:53 2007; verzani

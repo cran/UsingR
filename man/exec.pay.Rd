@@ -1,6 +1,5 @@
 \name{exec.pay}
 \alias{exec.pay}
-\non_function{}
 \title{ Direct compensation for 199 United States CEOs in the year 2000  }
 \description{ Direct compensation for 199 United States CEOs in the year 2000
 in units of \$10,000.  }

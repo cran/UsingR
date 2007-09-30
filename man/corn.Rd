@@ -1,6 +1,5 @@
 \name{corn}
 \alias{corn}
-\non_function{}
 \title{Comparison of corn for new and standard variety}
 \description{Comparison of corn for new and standard variety}
 \usage{data(corn)}

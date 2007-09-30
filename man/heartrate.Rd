@@ -1,6 +1,5 @@
 \name{heartrate}
 \alias{heartrate}
-\non_function{}
 \title{Simulated data of age vs. max heart rate }
 \usage{data(heartrate)}
 \description{Simulated data of age vs. max heart rate

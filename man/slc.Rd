@@ -1,6 +1,5 @@
 \name{slc}
 \alias{slc}
-\non_function{}
 \title{ Sodium-Lithium countertransport }
 \description{ Sodium-Lithium countertransport }
 \usage{data(slc)}

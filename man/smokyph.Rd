@@ -1,6 +1,5 @@
 \name{smokyph}
 \alias{smokyph}
-\non_function{}
 \title{Water pH levels at 75 water samples in the Great Smoky Mountains }
 \usage{data(smokyph)}
 \description{Water pH levels at 75 water samples in the Great Smoky Mountains 

@@ -1,6 +1,5 @@
 \name{iq}
 \alias{iq}
-\non_function{}
 \title{ IQ scores }
 \description{ simulated IQ scores }
 \usage{data(iq)}

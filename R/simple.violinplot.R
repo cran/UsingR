@@ -6,6 +6,7 @@ simple.violinplot.default <-
   function(x,...,
            orientation = "vertical", bw = "nrd0",
            names = NULL,
+           from = NULL, to = from,
            pars = NULL
            ) 
   {
@@ -39,7 +40,10 @@ simple.violinplot.default <-
     yvals <- matrix(0,nr=512,nc=n)
     center<- 1:n                        # where are they centered
     for(i in 1:n) {
-      tmp.dens <- density(groups[[i]],bw=bw)
+      if(is.null(from))
+        tmp.dens <- density(groups[[i]],bw=bw) # suggest by Emili Tortosa-Ausina <Emili.Tortosa@eco.uji.es>
+      else
+        tmp.dens <- density(groups[[i]],bw=bw, from=from, to=to)
       xvals[,i] <- tmp.dens$x
       yvals.needtoscale <- tmp.dens$y
       ## we scale so largest size is less than 1/2

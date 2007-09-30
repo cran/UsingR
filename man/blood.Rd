@@ -1,6 +1,5 @@
 \name{blood}
 \alias{blood}
-\non_function{}
 \title{ blood pressure readings }
 \usage{data(blood)}
 \description{

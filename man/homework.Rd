@@ -1,6 +1,5 @@
 \name{homework}
 \alias{homework}
-\non_function{}
 \title{Homework averages for Private and Public schools }
 \usage{data(homework)}
 \description{Homework averages for Private and Public schools 

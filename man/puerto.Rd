@@ -1,6 +1,5 @@
 \name{puerto}
 \alias{puerto}
-\non_function{}
 \title{Incomes for Puerto Rican immigrants to Miami }
 \description{Incomes for Puerto Rican immigrants to Miami }
 \usage{data(puerto)}

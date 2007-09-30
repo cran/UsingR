@@ -1,6 +1,5 @@
 \name{emissions}
 \alias{emissions}
-\non_function{}
 \title{ CO2 emissions data and gross domestic product for 26 countries}
 \usage{data(emissions)}
 \description{

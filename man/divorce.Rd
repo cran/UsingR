@@ -1,6 +1,5 @@
 \name{divorce}
 \alias{divorce}
-\non_function{}
 \title{Time until divorce for divorced women (by age)}
 \usage{data(divorce)}
 \description{

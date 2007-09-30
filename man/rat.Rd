@@ -1,6 +1,5 @@
 \name{rat}
 \alias{rat}
-\non_function{}
 \title{Survival times of 20 rats exposed to radiation}
 \description{Survival times of 20 rats exposed to radiation}
 \usage{data(rat)}

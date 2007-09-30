@@ -1,6 +1,5 @@
 \name{florida}
 \alias{florida}
-\non_function{}
 \title{ County-by-county results of year 2000 US presidential election
 in Florida }
 \usage{data(florida)}

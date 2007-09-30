@@ -1,6 +1,5 @@
 \name{chips}
 \alias{chips}
-\non_function{}
 \title{Measurements of chip wafers }
 \usage{data(chips)}
 \description{

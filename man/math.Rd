@@ -1,6 +1,5 @@
 \name{math}
 \alias{math}
-\non_function{}
 \title{ Standardized math scores }
 \description{
   Standardized math scores

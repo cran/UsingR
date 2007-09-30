@@ -1,6 +1,5 @@
 \name{aid}
 \alias{aid}
-\non_function{}
 \title{ monthly payment for federal program }
 \description{ monthly payment for federal program }
 \usage{data(aid)}

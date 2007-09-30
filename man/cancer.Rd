@@ -1,6 +1,5 @@
 \name{cancer}
 \alias{cancer}
-\non_function{}
 \title{ cancer survival times  }
 \description{ cancer survival times }
 \usage{data(cancer)}

@@ -1,6 +1,5 @@
 \name{south}
 \alias{south}
-\non_function{}
 \title{ Murder rates for 30 Southern US cities}
 \description{ Murder rates for 30 Southern US cities}
 \usage{data(south)}

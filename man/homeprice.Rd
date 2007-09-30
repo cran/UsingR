@@ -1,6 +1,5 @@
 \name{homeprice}
 \alias{homeprice}
-\non_function{}
 \title{ Sale price of homes in New Jersey in the year 2001 }
 \usage{data(homeprice)}
 \description{

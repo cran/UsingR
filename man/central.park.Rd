@@ -27,7 +27,9 @@
     \item{PSBL}{Sunshine measurement a factor with levels \code{0} \code{M}}
     \item{S.S}{Sunshine measurement. 0-3 = Clear, 4-7 partly cloudy,
     8-10 is cloudy}
-    \item{WX}{1 = FOG,
+  \item{WX}{(This is not as documented in the data source. Ignore this
+  variable. It should be:
+    1 = FOG,
 2 = FOG REDUCING VISIBILITY  
     TO 1/4 MILE OR LESS,      
 3 = THUNDER,                  
@@ -38,7 +40,7 @@
     VSBY 1/2 MILE OR LESS,    
 8 = SMOKE OR HAZE,            
 9 = BLOWING SNOW,             
-X = TORNADO
+X = TORNADO)
 }
     \item{SPD3}{peak wind speed}
     \item{DR}{direction of peak wind}

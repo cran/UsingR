@@ -1,6 +1,5 @@
 \name{home}
 \alias{home}
-\non_function{}
 \title{Maplewood NJ homedata}
 \usage{data(home)}
 \description{

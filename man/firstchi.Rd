@@ -1,6 +1,5 @@
 \name{firstchi}
 \alias{firstchi}
-\non_function{}
 \title{Age of mother at birth of first child }
 \description{Age of mother at birth of first child }
 \usage{data(firstchi)}

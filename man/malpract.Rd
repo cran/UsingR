@@ -1,6 +1,5 @@
 \name{malpract}
 \alias{malpract}
-\non_function{}
 \title{ malpractice settlements  }
 \description{ malpractice settlements  }
 \usage{data(malpract)}

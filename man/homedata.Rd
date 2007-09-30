@@ -1,6 +1,5 @@
 \name{homedata}
 \alias{homedata}
-\non_function{}
 \title{ Maplewood NJ assessed values for years 1970 and 2000 }
 \usage{data(homedata)}
 \description{

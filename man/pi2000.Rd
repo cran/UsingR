@@ -1,6 +1,5 @@
 \name{pi2000}
 \alias{pi2000}
-\non_function{}
 \title{first 2000 digits of pi }
 \description{first 2000 digits of pi }
 \usage{data(pi2000)}

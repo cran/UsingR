@@ -1,6 +1,5 @@
 \name{dowdata}
 \alias{dowdata}
-\non_function{}
 \title{The Dow Jones average from Jan 1999 to October 2000}
 \usage{data(dowdata)}
 \description{

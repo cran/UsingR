@@ -1,6 +1,5 @@
 \name{chicken}
 \alias{chicken}
-\non_function{}
 \title{weight gain of chickens fed 3 different rations }
 \usage{data(chicken)}
 \description{

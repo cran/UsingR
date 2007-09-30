@@ -1,12 +1,3 @@
-BushApproval            U.S. President George Bush approval ratings
-DOTplot                 Make big DOT plot likestripchart
-HUMMER                  Deliveries of new HUMMER vehicles
-MLBattend               Major league baseball attendance data
-OBP                     On base percentage for 2002 major league
-                        baseball season
-QQplot                  Creates a qqplot with shaded density estimate
-Split.zoo               Add split method for zoo objects
-UsingR                  Opens browser to UsingR webpages
 age.universe            Best estimate of the age of the universe
 aid                     monthly payment for federal program
 alaska.pipeline         Comparison of in-field and laboratory
@@ -23,10 +14,11 @@ baycheck                Population estimate of type of Bay Checkerspot
 best.times              Best track and field times by age and distance
 blood                   blood pressure readings
 breakdown               Time of insulating fluid to breakdown
+brightness              Brightness of 966 stars
 bright.stars            List of bright stars with Hipparcos catalog
                         number
-brightness              Brightness of 966 stars
 bumpers                 Bumper repair costs for various automobiles
+BushApproval            U.S. President George Bush approval ratings
 bycatch                 Number of Albatrosses accidentaly caught during
                         a fishing haul
 cabinet                 Estimated tax savings for US President Bush's
@@ -49,9 +41,11 @@ coldvermont             Daily minimum temperature in Woodstock Vermont
 corn                    Comparison of corn for new and standard variety
 crime                   violent crime rates in 50 states of US
 deflection              Deflection under load
-densityplot             Plots densities of data
+DensityPlot             Plots densities of data
 diamond                 Price by size for diamond rings
 divorce                 Time until divorce for divorced women (by age)
+do                      ~~function to do ... ~~
+DOTplot                 Make big DOT plot likestripchart
 dottodot                Dot-to-dot puzzle
 dowdata                 The Dow Jones average from Jan 1999 to October
                         2000
@@ -94,9 +88,12 @@ homeprice               Sale price of homes in New Jersey in the year
                         2001
 homework                Homework averages for Private and Public
                         schools
+HUMMER                  Deliveries of new HUMMER vehicles
 iq                      IQ scores
 kid.weights             Weight and height measurement for a sample of
                         U.S. children
+KSI                     Data set on automobile deaths and injuries in
+                        Great Britain
 last.tie                Last tie in 100 coin tosses
 lawsuits                Law suit settlements
 malpract                malpractice settlements
@@ -106,6 +103,7 @@ math                    Standardized math scores
 maydow                  Dow Jones industrial average and May maximum
                         temperature
 midsize                 Price of new and used of three mid-sized cars
+MLBattend               Major league baseball attendance data
 mw.ages                 Age distribution in year 2000 in Maplewood New
                         Jersey
 nba.draft               NBA draft lottery odds for 2002
@@ -114,18 +112,23 @@ normtemp                Body temperature and heart rate of 130 health
 npdb                    National Practioner Data Bank
 nym.2002                Random sample of 2002 New York City Marathon
                         finishers
+OBP                     On base percentage for 2002 major league
+                        baseball season
 oral.lesion             Oral lesion location by town
+ozonemonthly            Monthly mean ozone values at Halley Bay
+                        Antartica
 paradise                Annual snowfall at Paradise Ranger Station,
                         Mount Ranier
 pi2000                  first 2000 digits of pi
 primes                  Primes numbers less than 2003
 puerto                  Incomes for Puerto Rican immigrants to Miami
+QQplot                  Creates a qqplot with shaded density estimate
 rat                     Survival times of 20 rats exposed to radiation
 reaction.time           Reaction time with cell phone usage
 reddrum                 Growth of red drum
+salmonharvest           Salmon harvest in Alaska from 1980 to 1998
 salmon.rate             Simulated Data on Rate of Recruitment for
                         Salmon
-salmonharvest           Salmon harvest in Alaska from 1980 to 1998
 samhda                  Substance Abuse and Mental Health Data for
                         teens
 scatter.with.hist       Scatterplot with histograms
@@ -161,10 +164,11 @@ smokyph                 Water pH levels at 75 water samples in the
 south                   Murder rates for 30 Southern US cities
 southernosc             Southern Oscillations
 sp500.excess            Excess returns of S&P 500
+Split.zoo               Add split method for zoo objects
 squareplot              Create a squareplot alternative to a segmented
                         barplot
-stud.recs               Student records
 student.expenses        Some simulated data on student expenses
+stud.recs               Student records
 superbarplot            super segmented barplot
 tastesgreat             Does new goo taste great?
 tcm1y                   One-year treasury security values
@@ -175,6 +179,7 @@ too.young               What age is too young for a male to data a
 twins                   Burt's IQ data for twins
 u2                      Song and lengths for U2 albums
 urchin.growth           Data on growth of sea urchins
+UsingR                  Opens browser to UsingR webpages
 vacation                vacation days
 violinplot              Plots violinplots instead of boxplots
 watertemp               Temperature measurement of water at 85m depth

@@ -1,6 +1,5 @@
 \name{crime}
 \alias{crime}
-\non_function{}
 \title{ violent crime rates in 50 states of US }
 \usage{data(crime)}
 \description{

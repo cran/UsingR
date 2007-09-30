@@ -1,6 +1,5 @@
 \name{vacation}
 \alias{vacation}
-\non_function{}
 \title{vacation days}
 \description{vacation days}
 \usage{data(vacation)}

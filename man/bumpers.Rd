@@ -1,6 +1,5 @@
 \name{bumpers}
 \alias{bumpers}
-\non_function{}
 \title{ Bumper repair costs for various automobiles}
 \description{ bumper repair costs }
 \usage{data(bumpers)}

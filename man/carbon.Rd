@@ -1,6 +1,5 @@
 \name{carbon}
 \alias{carbon}
-\non_function{}
 \title{Carbon Monoxide levels at different sites }
 \usage{data(carbon)}
 \description{

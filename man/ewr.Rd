@@ -1,6 +1,5 @@
 \name{ewr}
 \alias{ewr}
-\non_function{}
 \title{ Taxi in and taxi out times at EWR (Newark) airport for 1999-2001 }
 \usage{data(ewr)}
 \description{
