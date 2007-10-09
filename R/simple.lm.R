@@ -17,13 +17,13 @@
       xvals <-seq(min(x),max(y),length=15)
 
       curve(predict(tmp.lm,data.frame(x=x),
-                    interval="confidence")[,3],add=T)
+                    interval="confidence")[,3],add=TRUE)
       curve(predict(tmp.lm,data.frame(x=x),
-                    interval="confidence")[,2],add=T)
+                    interval="confidence")[,2],add=TRUE)
       curve(predict(tmp.lm,data.frame(x=x),
-                    interval="prediction")[,3],lty=3,add=T)
+                    interval="prediction")[,3],lty=3,add=TRUE)
       curve(predict(tmp.lm,data.frame(x=x),
-                    interval="prediction")[,2],lty=3,add=T)
+                    interval="prediction")[,2],lty=3,add=TRUE)
     }
     ## give a nice title.
     coeffs <- floor(tmp.lm$coeff*100)/100

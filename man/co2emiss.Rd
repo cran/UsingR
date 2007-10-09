@@ -3,7 +3,7 @@
 \docType{data}
 \title{Carbon Dioxide Emissions from the U.S.A. from fossil fuel }
 \description{
-  
+  Carbon Dioxide Emissions from the U.S.A. from fossil fuel 
 }
 \usage{data(co2emiss)}
 \format{
