@@ -14,9 +14,6 @@
     \item{Social}{Social status of biological parents}
   }
 }
-\details{
-  
-}
 \source{
   This data comes from the R package that accompanies Julian Faraway's
   notes \emph{Practical Regression and Anova in R} (now a book).

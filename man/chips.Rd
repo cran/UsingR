@@ -18,8 +18,6 @@ The \code{chips} data frame has 30 rows and 8 columns.
     \item{wafer24}{a numeric vector}
   }
 }
-\details{
-}
 \source{
 From Kitchens' Exploring Statistics
 }

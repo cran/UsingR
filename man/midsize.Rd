@@ -20,7 +20,6 @@
   new car and values of similar models for previous years as reported by
   \url{http://www.edmunds.com}.
 }
-}
 \examples{
 data(midsize)
 plot(Accord ~ I(2004-Year), data = midsize)

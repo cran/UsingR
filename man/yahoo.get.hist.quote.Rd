@@ -32,6 +32,4 @@ yahoo.get.hist.quote(instrument = "^gspc", destfile = paste(instrument, ".csv", 
 \references{This function was found on the mailling list for R-SIG finance}
 \author{Daniel Herlemont <dherlemont@yats.com> }
 \seealso{yahoo.get.hist.quote in the tseries package}
-\examples{
-}
 \keyword{misc }% at least one, from doc/KEYWORDS

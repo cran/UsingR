@@ -11,8 +11,6 @@
   The format is:
  Time-Series [1:792] from 1929 to 1995: 0.0225 -0.044 -0.0591 0.0227 0.0077 0.0432 0.0455 0.0171 0.0229 -0.0313 ...
 }
-\details{
-}
 \source{
 	This data set is used in Tsay, Analysis of Financial Time
 	Series.  It was downloaded from

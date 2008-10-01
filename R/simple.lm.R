@@ -26,7 +26,7 @@
                     interval="prediction")[,2],lty=3,add=TRUE)
     }
     ## give a nice title.
-    coeffs <- floor(tmp.lm$coeff*100)/100
+    coeffs <- floor(tmp.lm$coeff*100 + 0.5)/100
     plusorminus <- c("+")
     if (coeffs[1] < 0 ) plusorminus <- c("")
     title(paste("y = ",coeffs[2],"x ",plusorminus,coeffs[1]))
