@@ -16,13 +16,13 @@
     if (show.ci) {
       xvals <-seq(min(x),max(y),length=15)
 
-      curve(predict(tmp.lm,data.frame(x=x),
+      curve(predict(tmp.lm,data.frame(x=x), level= conf.level,
                     interval="confidence")[,3],add=TRUE)
-      curve(predict(tmp.lm,data.frame(x=x),
+      curve(predict(tmp.lm,data.frame(x=x), level= conf.level,
                     interval="confidence")[,2],add=TRUE)
-      curve(predict(tmp.lm,data.frame(x=x),
+      curve(predict(tmp.lm,data.frame(x=x), level= conf.level,
                     interval="prediction")[,3],lty=3,add=TRUE)
-      curve(predict(tmp.lm,data.frame(x=x),
+      curve(predict(tmp.lm,data.frame(x=x), level= conf.level,
                     interval="prediction")[,2],lty=3,add=TRUE)
     }
     ## give a nice title.

@@ -17,7 +17,7 @@
 \source{
   Simulated based on ``Age-predicted maximal heart
         rate revisited'' Hirofumi Tanaka, Kevin D. Monahan, Douglas R.
-        Seals \textit{Journal of the American College of Cardiology},
+        Seals \emph{Journal of the American College of Cardiology},
         37:1:153-156.
 }
 \examples{
