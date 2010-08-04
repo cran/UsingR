@@ -1,7 +1,7 @@
 \name{do}
 \alias{do}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{ ~~function to do ... ~~ }
+\title{Function for repeating commands. }
 \description{
   A function to facilitate performing of simulations
 }

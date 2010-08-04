@@ -18,7 +18,7 @@ yahoo.get.hist.quote(instrument = "^gspc", destfile = paste(instrument, ".csv", 
   \item{download}{ Download the data }
   \item{origin}{Dates are recorded in the number of days since the
   origin. A value of "1970-01-01" is the default. This was changed from "1899-12-30".}
-  \item{compression}{}
+  \item{compression}{Passed to yahoo}
 }
 \details{
   Goes to chart.yahoo.com and downloads the stock data. By default

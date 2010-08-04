@@ -1,3 +1,4 @@
+##' Do function due to Danny Kaplan
 do = function(.n){
   # ways to modify the item calculated in each loop
   fixit =  function(object, ...) UseMethod('fixit')
