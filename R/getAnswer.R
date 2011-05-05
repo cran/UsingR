@@ -1,5 +1,51 @@
 getAnswer = function(chapter=NULL, problem=NULL) {
-  ## fetch answer from UsingR website, display in browswer
+  ourURLdecode <- function(x) {
+    if(is.null(x))
+      return(x)
+    x <- URLdecode(x)
+    x <- gsub("&2B;", "+", x, fixed=TRUE)
+    x
+  }
+  
+  isServerRunning <- function() {
+    tools:::httpdPort > 0L
+  }
+  
+  UsingR.httpd.handler <- function(path, query, ...) {
+    
+    ## here path is path, query contains query string, ... ???
+    path <- ourURLdecode(path)
+    
+    tmp <- strsplit(path, "\\/")[[1]]
+    page <- tmp[length(tmp)]              # last one
+    
+    html <- system.file("answers", page, package="UsingR")
+    
+    ret <- list(payload=paste(readLines(html), collapse="\n"),
+                "content-type" = "text/html",
+                "status code" = 200L)
+    return(ret)
+  }
+  
+  
+
+
+  ## fetch answer from UsingR package, display in browswer
+  URLBase <- "UsingR"
+  URLExtra <- "AnswersToSelectedProblems"
+
+  if(!isServerRunning()) {
+    tools:::startDynamicHelp()
+  }
+
+  if(!isServerRunning()) {
+    stop("No local server?")
+  }
+  
+  ## set handler
+  e <- get( ".httpd.handlers.env", asNamespace("tools"))
+  if(is.null(e[[URLBase]]))
+    e[[URLBase]] <- UsingR.httpd.handler
 
   ## list of possible answers
   allAnswers = c('1.5', '1.6', '1.7', '1.9', '1.10', '1.16', '1.17', '1.19',
@@ -30,9 +76,10 @@ getAnswer = function(chapter=NULL, problem=NULL) {
   
   chapprob = as.character(paste(chapter,".",problem,sep="",collapse=""))
   if (chapprob %in% allAnswers) {
-    UsingRurl = "http://www.math.csi.cuny.edu/UsingR/AnswersToSelectedProblems"
-    url =  paste(UsingRurl,"/problem-",chapprob,".html",
-      sep="",collapse="")
+    url = sprintf("http://127.0.0.1:%s/custom/UsingR/AnswersToSelectedProblems/problem-%s.%s.html",
+      tools:::httpdPort,
+      chapter,
+      problem)
     
     browseURL(url)
   } else {

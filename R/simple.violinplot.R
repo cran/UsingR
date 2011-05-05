@@ -61,9 +61,18 @@ simple.violinplot.default <-
       xrange <- range(xvals)
       yrange <- c(min(yvals),max(yvals))
     }
-    plot.new()
-    plot.window(xlim = xrange, ylim = yrange)
 
+    ### Added this
+    args <- list(...)
+    xlim <- if(is.null(args$xlim)) xrange else args$xlim
+    ylim <- if(is.null(args$ylim)) xrange else args$ylim
+
+    
+    plot.new()
+    plot.window(xlim = xlim, ylim = xlim)
+    ####
+
+    
     for (i in 1:n)
       vlnplt(xvals[,i],yvals[,i],center[i],
              bordercolor = rainbow(i),

@@ -1,11 +1,13 @@
 \name{getAnswer}
 \alias{getAnswer}
+\alias{errata}
 \title{Display answers to selected problems }
 \description{
   Displaysanswers to selected problems  in the system's web browser .
 }
 \usage{
 getAnswer(chapter = NULL, problem = NULL)
+errata()
 }
 \arguments{
   \item{chapter}{The chapter number}
@@ -14,12 +16,14 @@ getAnswer(chapter = NULL, problem = NULL)
 }
 \details{
   Some selected answers from the problems in \emph{Using R for
-  Introductory Statistics} are available from the webpage
-  \url{http://www.math.csi.cuny.edu/UsingR}. This function will display
+  Introductory Statistics} are available from the \pkg{UsingR} package
+  The \code{getAnswer} function will display
   them one-by-one in the browser.
+
+  The \code{errata} function will display the list of errata.
 }
 \value{
-  If available, opens web browser to the requested answer.
+  If available, opens web browser to the requested answer or errata page
 }
 \author{John Verzani}
 \examples{
