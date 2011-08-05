@@ -28,7 +28,7 @@
   convenience only.
 }
 \examples{
-data(camp.Rd)
+data(camp)
 acf(camp)
 }
 \keyword{datasets}

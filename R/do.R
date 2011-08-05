@@ -1,9 +1,9 @@
 ##' Do function due to Danny Kaplan
 do = function(.n){
   # ways to modify the item calculated in each loop
-  fixit =  function(object, ...) UseMethod('fixit')
-  fixit.default = function(x){x}
-  fixit.lm = function(x){x$coefficients} # for linear models
+  fixit =  function(..object.., ...) UseMethod('fixit')
+  fixit.default = function(..object..){..object..}
+  fixit.lm = function(..object..){..object..$coefficients} # for linear models
  
   function(e){
     a = eval(substitute(replicate(.n,fixit(e))))

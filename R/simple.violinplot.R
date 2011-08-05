@@ -63,13 +63,14 @@ simple.violinplot.default <-
     }
 
     ### Added this
-    args <- list(...)
-    xlim <- if(is.null(args$xlim)) xrange else args$xlim
-    ylim <- if(is.null(args$ylim)) xrange else args$ylim
+    if(!is.null(args$xlim)) 
+      xrange <- args$xlim
+    if(!is.null(args$ylim))
+      yrange <- args$ylim
 
-    
     plot.new()
-    plot.window(xlim = xlim, ylim = xlim)
+    plot.window(xlim=xrange, ylim=yrange)
+
     ####
 
     

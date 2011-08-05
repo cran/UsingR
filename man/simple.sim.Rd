@@ -25,7 +25,7 @@ simple.sim(no.samples, f, ...)
   returns a vector of size no.samples
 }
 \author{John Verzani}
-\note{simple.sim does not like named parameters in the function}
+\note{There must be a 1000 better ways to do this. See \code{\link{replicate}} or \code{\link{sapply}} for example.}
 \examples{
 ## First shows trivial (and very unnecessary usage)
 ## define a function f and then simulate

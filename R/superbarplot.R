@@ -1,19 +1,16 @@
 superbarplot <- function(x,
                          names = 1:dim(x)[2],
-                         names.height=NULL,
+                         names_height=NULL,
                          col = gray(seq(.8,.5,length=dim(x)[1]/2)),
-                         ...
-                         ) {
+                         ...) {
 
   plot.bar <- function(x,min,max,width=1,...) {
-    alpha = (1-width)/2
+    alpha <- (1-width)/2
     polygon(x + c(alpha,alpha,1-alpha,1-alpha,alpha),
             c(min,max,max,min,min),
             ...)                        # pass in col
   }
     
-
-  
   ## x is a matrix with rows alternating of High, Min.
   n = dim(x)[2]
   m = dim(x)[1]
@@ -27,7 +24,8 @@ superbarplot <- function(x,
   plot.new()
   plot.window(xlim=x.range,ylim=y.range,
               xaxt="n",
-              bty="n",ann=FALSE,...)
+              bty="n",ann=FALSE)
+  title(...)
   
   for(i in 1:no.bars) {
     for(j in 1:n) {
@@ -38,11 +36,11 @@ superbarplot <- function(x,
   ## names
   if(!is.null(names)) {
     ## height
-    if(is.null(names.height)) {
+    if(is.null(names_height)) {
       f = par("yaxp")
-      names.height= f[1] + (f[2]-f[1])*(f[3]-1)/f[3]
+      names_height= f[1] + (f[2]-f[1])*(f[3]-1)/f[3]
     }
-    text(0.5 + 1:n,rep(names.height,n),format(names))
+    text(0.5 + 1:n,rep(names_height,n),format(names))
   }
     
 

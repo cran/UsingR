@@ -3,8 +3,6 @@ squareplot <- function(x,
                        border=NULL,
                        nrows=ceiling(sqrt(sum(x))),
                        ncols=ceiling(sum(x)/nrows),
-                       xlab = deparse(substitute(x)),
-                       main = NULL,
                        ...
                        ) {
   ## create a squareplot ala the New York Times. Used as an
@@ -23,9 +21,8 @@ squareplot <- function(x,
   ## setup window with plot.new() and plot.window()
   ## arguments to ... are passed along here
   plot.new()
-  plot.window(xlim=c(0,square.size),ylim=c(-square.size,0),
-       ...)
-  title(main=main, xlab=xlab)
+  plot.window(xlim=c(0,square.size),ylim=c(-square.size,0))
+  title(...)
   
   ## vector with colors
   cols = rep(col,x)

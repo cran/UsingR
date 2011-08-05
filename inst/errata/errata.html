@@ -20,7 +20,7 @@
 
 <center>  <font size="+2">List of errata found in <i>Using R
     for Introductory Statistics</i><br />
-  Sep 16, 2009
+  Aug  4, 2011
 
 </font></center>
 
@@ -88,7 +88,15 @@ To be clear, we can produce the pie chart with
 &#62; col = gray(c(.7,.85,.9))
 &#62; pie(sales, main="sales", col=col) 
 
-</pre></dd>
+</pre>
+
+<div class="p"><!----></div>
+</dd>
+ <dt><b>page 38</b></dt>
+	<dd> Comment on using the function <tt>mean</tt> with a
+  factor variable should read "In the example with mean() an error is
+  returned, as factors are treated as categoric even if their levels
+  are given numeric-looking values."</dd>
  <dt><b>page 60, line -4</b></dt>
 	<dd> The data set to detach is <tt>faithful</tt>:
 
@@ -118,28 +126,30 @@ propagates to the 4 subsequent displays of this data- the two on page
 71, the one on page 72, and the one on page 73. This also effects the
 Figure 3.1 on page 75 which is better presented with these commands (Figure&nbsp;):
 
-
+<pre>
 &#62; x = matrix(c(56, 2, 8, 16), nrow = 2)
-&#62; tmp = c("buckled", &#252;nbuckled")
+&#62; tmp = c("buckled", "unbuckled")
 &#62; rownames(x) = tmp
 &#62; colnames(x) = tmp
 &#62; barplot(x, xlab = "Parent", beside = FALSE)
 
-
+</pre>
 
 <div class="p"><!----></div>
+
+<pre>
 &#62; barplot(x, xlab = "Parent", beside = TRUE)
 
-
+</pre>
 
 <div class="p"><!----></div>
  
 <div class="p"><!----></div>
 <a name="tth_fIg1">
-</a>   <center><a href="errata-003.png">Figure</a>
+</a>   <center><img src="errata-003.png" alt="errata-003.png" />
 
 <div class="p"><!----></div>
-<a href="errata-004.png">Figure</a>
+<img src="errata-004.png" alt="errata-004.png" />
 
 <div class="p"><!----></div>
   <center>Figure 1: (From Figure 3.1 page 75) Segmented and side-by-side barplots showing distribution ...</center>
@@ -206,13 +216,17 @@ replace those values and compute:
 	<dd> The <tt>boxplot</tt> command should have UA in place
   of a US. Try
   
+<pre>
     boxplot(AA,CO, DL,HP,NW,TW,UA,US)
   
+</pre>
 Of course, it is more efficient to just use data frame notation for
 these things:
 
+<pre>
   boxplot(ewr[,3:10])
 
+</pre>
 
 <div class="p"><!----></div>
 </dd>
@@ -285,8 +299,10 @@ Dropping the i index will work:
   <i>amounts</i> given is called <tt>amounts</tt> and not "award."
   The proper command should have been:
   
+<pre>
     tmp = split(amount, ID)
   
+</pre>
 
 <div class="p"><!----></div>
 </dd>
@@ -294,8 +310,10 @@ Dropping the i index will work:
 	<dd> The command to set the background color for lattice
   graphics is now
   
+<pre>
  lattice.options(default.theme = "col.whitebg")
   
+</pre>
 
 <div class="p"><!----></div>
 </dd>
@@ -304,8 +322,10 @@ Dropping the i index will work:
   <tt>plot.regression</tt>, not <tt>panel.regression</tt>. Hence when
   referring to the function on line 11, the argument should read
   
+<pre>
 + panel = plot.regression)     # a new panel function    
-</dd>
+
+</pre></dd>
  <dt><b>page 135, line -9</b></dt>
 	<dd> The variable name <tt>Pulse</tt> has spurious
   parentheses.
@@ -350,8 +370,10 @@ Dropping the i index will work:
   incorrectly. This occurs in the boxplot() call. It should
   read
   
+<pre>
     boxplot(list(placebo=x, drug=y), col="gray") #compare spreads
   
+</pre>
 
 <div class="p"><!----></div>
 </dd>
@@ -441,7 +463,13 @@ Dropping the i index will work:
  <dt><b>page 335, line -12</b></dt>
 	<dd> The sentence should read <font face="symbol">d</font
 ><sub>j</sub> is the
-  mean for the jth level of x<sub>2</sub>.</dd>
+  mean for the jth level of x<sub>2</sub>.
+
+<div class="p"><!----></div>
+  </dd>
+ <dt><b>page 336, table 11.5</b></dt>
+	<dd> The entry in the table for car A, drive c
+  should be 36.9, not 36.8.</dd>
  <dt><b>help pages, <b>father.son</b></b></dt>
 	<dd> Data set was used by Pearson,
   not Galton as indicated.</dd>
@@ -455,6 +483,7 @@ Dropping the i index will work:
 Special thanks to 
 Steven Banville,
 Joel Daniels,
+Neil Desnoyers,
 Dr. Raul de la Fuente-Fernandez,
 Stephen Haptonstahl, 
 Mary Karlins, 

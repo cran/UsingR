@@ -8,8 +8,8 @@
   York Times}.
 }
 \usage{
-superbarplot(x, names = 1:dim(x)[2], names.height = NULL,
-  col = gray(seq(0.8, 0.5, length = dim(x)[1]/2)),...
+superbarplot(x, names = 1:dim(x)[2], names_height = NULL,
+  col = gray(seq(0.8, 0.5, length = dim(x)[1]/2)), ...
 )
 }
 %- maybe also 'usage' for other objects documented here.
@@ -17,10 +17,10 @@ superbarplot(x, names = 1:dim(x)[2], names.height = NULL,
   \item{x}{A matrix with each pair of rows representing a min and max
   for the bar.}
   \item{names}{ Place a name in each bar. }
-  \item{names.height}{ Where the names should go }
+  \item{names_height}{ Where the names should go }
   \item{col}{ What colors to use for the bars. There should be half as
     many specified as rows of \code{x} }
-  \item{...}{passed to \code{\link{plot}}. }
+  \item{...}{passed to \code{\link{plot.window}}. }
 
 }
 \details{

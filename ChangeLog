@@ -1,0 +1,9 @@
+2011-08-04  john verzani  <verzani@john-verzanis-macbook-pro.local>
+
+	* man/superbarplot.Rd: fixed bug in docs
+
+	* R/do.R: Fixed bug use ..object.. instead of x as variable
+
+	* R/simple.violinplot.R (simple.violinplot): fixed bug with xlim, ylim. Thanks James F.
+
+	

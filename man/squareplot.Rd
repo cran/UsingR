@@ -15,7 +15,6 @@
 squareplot(x, col = gray(seq(0.5, 1, length = length(x))),
 border =NULL, nrows = ceiling(sqrt(sum(x))), ncols =
 ceiling(sum(x)/nrows),
-xlab = deparse(substitute(x)), main = NULL,
 ...)
 }
 %- maybe also 'usage' for other objects documented here.
@@ -25,9 +24,7 @@ xlab = deparse(substitute(x)), main = NULL,
   \item{border}{border color passed to \code{\link{polygon}}}
   \item{nrows}{number of rows}
   \item{ncols}{number of columns }
-  \item{xlab}{ label for x axis }
-  \item{main}{ main title}
-  \item{\dots}{ passed to \code{plot.window}}
+  \item{\dots}{ passed to \code{title}}
 }
 \value{
   Creates the graph, but has no return  value.
@@ -37,7 +34,7 @@ Sports page 6, June 15, 2003. }
 \author{ John Verzani }
 
 \examples{
-## A Roger Clemens Cy Young year
+## A Roger Clemens Cy Young year -- roids?
 squareplot(c(21,7,6),col=c("blue","green","white"))
 }
 \keyword{ hplot }% at least one, from doc/KEYWORDS
