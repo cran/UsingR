@@ -36,7 +36,7 @@
       traj<-c(1)                        #start at 1
       n<-1
       while(traj[n] != 100) {
-        traj[n+1]<-sample(1:100,1,p=cl[traj[n],])
+        traj[n+1]<-sample(1:100,1,prob=cl[traj[n],])
         n<-n+1
       }
       traj                          

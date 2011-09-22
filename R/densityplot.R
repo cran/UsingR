@@ -36,8 +36,8 @@ DensityPlot.default <-
     }
 
     ## work on the gropu by group level
-    xvals <- matrix(0,nr=512,nc=n)
-    yvals <- matrix(0,nr=512,nc=n)
+    xvals <- matrix(0,nrow=512,ncol=n)
+    yvals <- matrix(0,nrow=512,ncol=n)
     for(i in 1:n) {
       tmp.dens <- density(groups[[i]],bw=bw)
       xvals[,i] <- tmp.dens$x

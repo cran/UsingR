@@ -35,8 +35,8 @@ violinplot.default <-
 
 
     ## work on the gropu by group level
-    xvals <- matrix(0,nr=512,nc=n)
-    yvals <- matrix(0,nr=512,nc=n)
+    xvals <- matrix(0,nrow=512,ncol=n)
+    yvals <- matrix(0,nrow=512,ncol=n)
     center<- 1:n                        # where are they centered
     for(i in 1:n) {
       tmp.dens <- density(groups[[i]],bw=bw)

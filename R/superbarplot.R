@@ -1,8 +1,7 @@
 superbarplot <- function(x,
                          names = 1:dim(x)[2],
                          names_height=NULL,
-                         col = gray(seq(.8,.5,length=dim(x)[1]/2)),
-                         ...) {
+                         col = gray(seq(.8,.5,length=dim(x)[1]/2)), ...) {
 
   plot.bar <- function(x,min,max,width=1,...) {
     alpha <- (1-width)/2

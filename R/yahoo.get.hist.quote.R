@@ -75,7 +75,7 @@ yahoo.get.hist.quote <-
       ## We need unclass() because 1.7.0 does not allow adding a number
       ## to a "difftime" object.
       ind <- jdat - jdat[n] + 1
-      y <- matrix(NA, nr = max(ind), nc = length(nser))
+      y <- matrix(NA, nrow = max(ind), ncol = length(nser))
       y[ind, ] <- as.matrix(x[, nser, drop = FALSE])
       colnames(y) <- names(x)[nser]
       return(ts(y, start = jdat[n], end = jdat[1]))
