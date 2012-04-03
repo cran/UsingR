@@ -20,7 +20,7 @@
 
 <center>  <font size="+2">List of errata found in <i>Using R
     for Introductory Statistics</i><br />
-  Aug  4, 2011
+  Dec 29, 2011
 
 </font></center>
 
@@ -127,18 +127,18 @@ propagates to the 4 subsequent displays of this data- the two on page
 Figure 3.1 on page 75 which is better presented with these commands (Figure&nbsp;):
 
 <pre>
-&#62; x = matrix(c(56, 2, 8, 16), nrow = 2)
-&#62; tmp = c("buckled", "unbuckled")
-&#62; rownames(x) = tmp
-&#62; colnames(x) = tmp
-&#62; barplot(x, xlab = "Parent", beside = FALSE)
+&#62;    x = matrix(c(56,2,8,16),nrow=2)
+&#62;    tmp = c("buckled","unbuckled") # less typing
+&#62;    rownames(x) = tmp
+&#62;    colnames(x) = tmp
+&#62;    barplot(x, xlab="Parent", beside=FALSE)
 
 </pre>
 
 <div class="p"><!----></div>
 
 <pre>
-&#62; barplot(x, xlab = "Parent", beside = TRUE)
+&#62;   barplot(x, xlab="Parent", beside=TRUE)
 
 </pre>
 
@@ -344,6 +344,13 @@ Dropping the i index will work:
 >p).)
 
 <div class="p"><!----></div>
+  </dd>
+ <dt><b>page 169</b></dt>
+	<dd> The description of <tt>mean(runif(n))</tt> should be
+    that this command first creates a sample of n independent
+    realizations from the uniform distribution on [0,1] then finds
+    their mean. (Not n samples.) Put another way it makes a random
+    sample of size n and computes the mean.
 </dd>
  <dt><b>Page 186, line 5</b></dt>
 	<dd> The position of z<sup>*</sup> and <font face="symbol">a</font
@@ -485,6 +492,7 @@ Steven Banville,
 Joel Daniels,
 Neil Desnoyers,
 Dr. Raul de la Fuente-Fernandez,
+Ridhima Gupta,
 Stephen Haptonstahl, 
 Mary Karlins, 
 Jenifer Larson-Hall, 

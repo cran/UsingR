@@ -1,3 +1,7 @@
+2012-04-02  john verzani  <verzani@john-verzanis-macbook-pro.local>
+
+	* compress data files for R CMD check
+
 2011-08-04  john verzani  <verzani@john-verzanis-macbook-pro.local>
 
 	* man/superbarplot.Rd: fixed bug in docs
