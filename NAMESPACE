@@ -1,1 +1,11 @@
+import(MASS)
+importFrom(aplpack, stem.leaf.backback)
+import(HistData, Hmisc)
+importFrom(quantreg, rq)
+
+## too many depends for CRAN check...
+#import(ggplot2)
+#import(lubridate)
+#import(vcd)
+#import(coin)
 exportPattern(".")

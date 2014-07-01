@@ -8,7 +8,8 @@
   matched up.
 }
 \usage{
-QQplot(x, y, n = 20, xsf = 4, ysf = 4, main = "qqplot", xlab = deparse(substitute(x)), ylab = deparse(substitute(y)), pch = 16, pcol = "black", shade = "gray", ...)
+QQplot(x, y, n = 20, xsf = 4, ysf = 4, main = "qqplot", xlab = deparse(substitute(x)),
+        ylab = deparse(substitute(y)), pch = 16, pcol = "black", shade = "gray", ...)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{

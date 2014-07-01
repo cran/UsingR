@@ -1,3 +1,12 @@
+##' display all answers in the browser
+##'
+##' Means to filter?
+answers <- function() {
+  f <- system.file("answers", "print-answers.pdf", package="UsingR")
+  browseURL(f)
+}
+
+
 getAnswer = function(chapter=NULL, problem=NULL) {
   ourURLdecode <- function(x) {
     if(is.null(x))
@@ -5,10 +14,6 @@ getAnswer = function(chapter=NULL, problem=NULL) {
     x <- URLdecode(x)
     x <- gsub("&2B;", "+", x, fixed=TRUE)
     x
-  }
-  
-  isServerRunning <- function() {
-    tools:::httpdPort > 0L
   }
   
   UsingR.httpd.handler <- function(path, query, ...) {
@@ -34,13 +39,8 @@ getAnswer = function(chapter=NULL, problem=NULL) {
   URLBase <- "UsingR"
   URLExtra <- "AnswersToSelectedProblems"
 
-  if(!isServerRunning()) {
-    tools:::startDynamicHelp()
-  }
+  tools::startDynamicHelp()
 
-  if(!isServerRunning()) {
-    stop("No local server?")
-  }
   
   ## set handler
   e <- get( ".httpd.handlers.env", asNamespace("tools"))
@@ -77,7 +77,7 @@ getAnswer = function(chapter=NULL, problem=NULL) {
   chapprob = as.character(paste(chapter,".",problem,sep="",collapse=""))
   if (chapprob %in% allAnswers) {
     url = sprintf("http://127.0.0.1:%s/custom/UsingR/AnswersToSelectedProblems/problem-%s.%s.html",
-      tools:::httpdPort,
+        environment(tools::startDynamicHelp)$httpdPort,
       chapter,
       problem)
     

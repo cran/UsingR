@@ -5,7 +5,11 @@
   Downloads stock data from Yahoo!
 }
 \usage{
-yahoo.get.hist.quote(instrument = "^gspc", destfile = paste(instrument, ".csv", sep = ""), start, end, quote = c("Open", "High", "Low", "Close"), adjusted = TRUE, download = TRUE, origin = "1970-01-01", compression = "d")
+yahoo.get.hist.quote(instrument = "^gspc", 
+destfile = paste(instrument, ".csv", sep = ""), 
+start, end, quote = c("Open", "High", "Low", "Close"), 
+adjusted = TRUE, download = TRUE, 
+origin = "1970-01-01", compression = "d")
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
