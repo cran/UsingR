@@ -1,5 +1,4 @@
 import(MASS)
-importFrom(aplpack, stem.leaf.backback)
 import(HistData, Hmisc)
 importFrom(quantreg, rq)
 

@@ -1,7 +1,6 @@
 ## rename to split.zoo to make generic method for zoo objects
 "Split.zoo" <-
   function(x,f) {
-    require(zoo)
     splitUnivariate = function(x,f) {
       tmp = x[f == values[1]]
       for(i in 2:length(values)) {
@@ -10,11 +9,11 @@
       colnames(tmp) = values
       return(tmp)
     }
-    size = dim(as.matrix(coredata(x)))
+    size = dim(as.matrix(zoo::coredata(x)))
     values = unique(f)
-    if(length(index(x)) != length(f)) {
+    if(length(zoo::index(x)) != length(f)) {
       warning("Length of grouping variable modified to make commensurate with zoo object")
-      f = rep(f, length.out=length(index(x)))
+      f = rep(f, length.out=length(zoo::index(x)))
     }
     
     if(size[2] == 1) {

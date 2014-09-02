@@ -1,3 +1,7 @@
+## version 2.0-2
+
+* move aplpack to Suggests, as tcltk2 is an issue
+
 ## version 2.0-1
 
 * initial checkin
