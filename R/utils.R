@@ -3,19 +3,7 @@
 ##' @param x object to summarize
 ##' @param k number of elements taken from head and tail
 ##' @return calls cat on value
-## headtail <- function(x, k=3) UseMethod("headtail")
-## headtail.default <- function(x, k=3) {
-##   invisible(cat(paste(c(capture.output(head(x, k)), " ... ", gsub("\\[1\\]", "", capture.output(tail(x, k)))), collapse=" ")))
-## }
-
-
-## headtail.character <- function(x, k=3) {
-##   n <- length(x)
-##   y <- c(x[1:k], "...", x[(n-k+1):n])
-##   y
-## }
-
-#headtail.data.frame <- function(x, k=3) {
+##' @export
 headtail <- function(x, k=3) {
   out <- capture.output(x); n <- length(out)
   val <- paste(c(out[1:(k+1)], "   ...", out[(n-k):n]), collapse="\n")
@@ -31,6 +19,14 @@ headtail <- function(x, k=3) {
 
 
 ## confint for htest object
+##' confint for htest objects
+##'
+##' @param object an htest object
+##' @param parm ignored
+##' @param level ignored
+##' @return a confidence interval
+##'
+##' @export
 confint.htest <- function(object, parm, level, ...) {
   x <- object
   tmp <- x$conf.int

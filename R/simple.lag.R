@@ -1,3 +1,12 @@
+##' simple lag plot
+##'
+##' From code posted by Martyn Plummer \code{<plummer "at" iarc.fr>}
+##' @param x data
+##' @param lag value of lab
+##' @param FUN function to apply
+##' @return NULL
+##'
+##' @export
 "simple.lag" <-
   function(x, lag, FUN=mean)
 {

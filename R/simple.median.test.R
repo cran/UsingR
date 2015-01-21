@@ -1,3 +1,9 @@
+##' Does a simple test for the median based on the binomial distribution
+##'
+##' @param x data
+##' @param median value to test
+##' @return p-value
+##' @export
 simple.median.test <- function (x,median=NA) {
   ### does a simle test for the median based on the binomial distribution
   ### of the number of observations larger (or smaller) than the true median.

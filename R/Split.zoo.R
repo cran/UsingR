@@ -1,4 +1,12 @@
 ## rename to split.zoo to make generic method for zoo objects
+
+##' split a zoo object
+##'
+##' @param x data
+##' @param f a factor
+##' @return the split data
+##'
+##' @export
 "Split.zoo" <-
   function(x,f) {
     splitUnivariate = function(x,f) {

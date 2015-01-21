@@ -1,3 +1,14 @@
+##' Make a scatter plot iwth histograms
+##'
+##' From an example in the R documentation
+##'
+##' @param x x variable
+##' @param y y variable
+##' @param hist.col color of histogram
+##' @param trend.line how to add trend line
+##' @param ... passed on
+##' @return NULL
+##' @export
 scatter.with.hist <-
   function(x,y,hist.col=gray(.95),trend.line="lm",...) {
 

@@ -1,3 +1,14 @@
+##'  make a scatterplot, return interesting things for simple regression
+##'
+##' @param x covariate data
+##' @param y response data
+##' @param show.residuals show them?
+##' @param show.ci show it?
+##' @param conf.level confidence level
+##' @param pred show prediction intervals
+##' @return NULL
+##'
+##' @export
 "simple.lm" <-
   function (x,y,show.residuals = FALSE, show.ci=FALSE, conf.level=0.95,pred=FALSE) {
     ## make a scatterplot, return interesting things

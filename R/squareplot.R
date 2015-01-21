@@ -1,3 +1,15 @@
+##' a square plot, ala old NY Times
+##'
+##' Used as an alternative to a segmented barplot when the actual count is of interest.
+##' @param x data
+##' @param col color
+##' @param border show border
+##' @param nrows number of rows
+##' @param ncols number of columns
+##' @param ... passed on
+##' @return NULL
+##'
+##' @export
 squareplot <- function(x,
                        col = gray(seq(.5,1,length=length(x))),
                        border=NULL,

@@ -1,3 +1,10 @@
+##' simulate chutes and ladders
+##'
+##' @param sim logical
+##' @param return.cl return values
+##' @param cl make the game
+##'
+##' @export
 "simple.chutes" <-
   function(sim=FALSE,return.cl=FALSE,cl=make.cl()) {
     ## make a chutes and ladder board (return.cl) or

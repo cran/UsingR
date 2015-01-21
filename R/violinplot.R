@@ -1,7 +1,28 @@
 ## courtesy of boxplot from base
+
+##' violinplot
+##'
+##' See the \pkg{vioplot} package
+##' @param x data
+##' @param ... passed on
+##'
+##' @rdname violinplot
+##' @export
 violinplot <- function(x, ...) UseMethod("violinplot")
 
 
+##' violinplot
+##'
+##' @param x data
+##' @param ... passed on
+##' @param orientation orientation
+##' @param bw bandwidth
+##' @param names names
+##' @param pars pars
+##' @return NULL
+##'
+##' @rdname violinplot
+##' @export
 violinplot.default <-
   function(x,...,
            orientation = "vertical", bw = "nrd0",
@@ -71,7 +92,17 @@ violinplot.default <-
 
 
 }                                     # end of default
-                               
+
+##' formula interface for violinplot
+##'
+##' @param formula formula
+##' @param data data frame
+##' @param ... passed on
+##' @param subset for subsetting data
+##' @return NULL
+##'
+##' @rdname violinplot
+##' @export
 violinplot.formula <- function(formula, data = NULL, ..., subset)
 {
     if(missing(formula) || (length(formula) != 3))

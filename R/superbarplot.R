@@ -1,3 +1,12 @@
+##' extended bar plot
+##'
+##' @param x data
+##' @param names names
+##' @param names_height height of names
+##' @param col color
+##' @param ... passed on
+##' @return NULL
+##' @export
 superbarplot <- function(x,
                          names = 1:dim(x)[2],
                          names_height=NULL,

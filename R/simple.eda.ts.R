@@ -1,3 +1,10 @@
+##' functin to make simple set of graphs for a times series data set
+##'
+##' @param x data
+##' @param lag what lag
+##' @return NULL
+##'
+##' @export
 "simple.eda.ts" <-
   function(x,lag=1) {
     op <- par(no.readonly = TRUE);on.exit(par(op))

@@ -1,7 +1,28 @@
 ## make DOTplot generic
+
+##' Make a DOTplot of a data set
+##'
+##' @param x a list, vector, formula, or matrix
+##' @param ... passed along
+##' @return produces graphic as side effect
+##' 
+##' @rdname DOTplot
+##' @export DOTplot
 DOTplot <- function(x, ...) UseMethod("DOTplot")
 
 ## Basic usage, x is a vector or list of vectors (eg. dataframe)
+
+##' Make a  dotplot of a data set
+##'
+##' @param x list, vector, formula, matrix
+##' @param pch plot character
+##' @param names labels
+##' @param main main title
+##' @param delta offset
+##' @param ... passed to \code{points}
+##'
+##' @rdname DOTplot
+##' @export
 DOTplot.default <-
   function(x,                           # list, vector, formula, matrix
            pch = 16,                    # what plot character
@@ -67,7 +88,16 @@ DOTplot.default <-
 
 
 }                                     # end of default
-                               
+
+##' Make a  dotplot of a data set
+##'
+##' @param formula formula
+##' @param data data frame for variable lookup
+##' @param ... passed to default method
+##' @param subset logical condition to subset data with
+##'
+##' @rdname DOTplot
+##' @export
 DOTplot.formula <- function(formula, data = NULL, ..., subset)
 {
     if(missing(formula) || (length(formula) != 3))

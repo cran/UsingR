@@ -2,7 +2,7 @@
 #' @title This dataset contains variables that address the
 #' relationship between public school expenditures and academic
 #' performance, as measured by the SAT.
-#' @description 
+#' @description SAT variables for public school and academic performance
 #' @docType data
 #' @usage SAT
 #' @format A data frame with variables \code{state}, \code{expend}
@@ -32,7 +32,7 @@ NULL
 
 ##' @name Medicare
 ##' @title Sample from "Medicare Provider Charge Data"
-##' @description 
+##' @description Sample from "Medicare Provider Charge Data"
 ##' @docType data
 ##' @usage Medicare
 ##' @format A data frame with data about billings for procedures at many different hospitals
@@ -49,7 +49,7 @@ NULL
 
 ##' @name wellbeing
 ##' @title What makes us happy
-##' @description 
+##' @description What makes us happy
 ##' @docType data
 ##' @usage wellbeing
 ##' @format A data frame with data about what makes people happy (well being) along with several other covariates
@@ -61,8 +61,8 @@ NULL
 
 
 ##' @name nisdc
-##' @title 
-##' @description 
+##' @title A data frame measuring daily sea-ice extent from 1978 until 2013.
+##' @description A data frame measuring daily sea-ice extent from 1978 until 2013.
 ##' @docType data
 ##' @usage nisdc
 ##' @format A data frame measuring daily sea-ice extent from 1978 until 2013.
@@ -73,16 +73,14 @@ NULL
 ##' \url{ftp://sidads.colorado.edu/DATASETS/NOAA/G02135/north/daily/data/NH_seaice_extent_nrt.csv}. The
 ##' data can be downloaded with
 ##' \code{read.table(.,sep=",",skip=2,col.names=col.names)}.
-##' 
+##' Usage is like:
+##' \code{ggplot(nisdc, aes(y=Extent,x=factor(Month))) + geom_boxplot() + facet_wrap(~Year)}
 ##' @references See the blog post \url{http://www.r-bloggers.com/arctic-sea-ice-at-lowest-levels-since-observations-began/} for a description and nice script to play with.
-##' @example
-##' require(ggplot2)
-##' ggplot(nisdc, aes(y=Extent,x=factor(Month))) + geom_boxplot() + facet_wrap(~Year)
 NULL
 
 
 #' @docType data
-#' @keyword datasets
+#' @keywords datasets
 #' @name wchomes
 #' @usage data(wchomes)
 #' @title A random sample of Wake County, North Carolina residential real estate plots
@@ -102,12 +100,11 @@ NULL
 #' feet, adjusted land value, address, et al.
 #' @format A data frame
 #' @source \url{http://www.amstat.org/publications/jse/v16n3/woodard.xls}
-#' @references
 NULL
 
 
 #' @docType data
-#' @keyword datasets
+#' @keywords datasets
 #' @name ObamaApproval
 #' @usage data(ObamaApproval)
 #' @title Approval ratings for President Obama
@@ -118,14 +115,13 @@ NULL
 
 
 #' @docType data
-#' @keyword datasets
+#' @keywords datasets
 #' @name ceo2013
 #' @usage data(ceo2013)
 #' @title CEO compensation in 2013
 #' @description Data on top 200 CEO compensations in the year 2013
 #' @format A data frame
 #' @source Scraped from \url{http://www.nytimes.com/interactive/2013/06/30/business/executive-compensation-tables.html?ref=business}
-#' @references
 NULL
 
 #' @name movie_data_2011
@@ -139,27 +135,16 @@ NULL
 
 
 #' @docType data
-#' @keyword datasets
+#' @keywords datasets
 #' @name snacks
 #' @usage data(snacks)
 #' @title Snack data from the USDA
 #' @description subset of SR26 data on nutrients compiled by the USDA.
 #' @format A data frame with some nutrition variables
 #' @source This data came from the SR26 data set found at \url{http://www.ars.usda.gov/Services/docs.htm?docid=8964}.
-#' @references
 NULL
 
 
 
-#' @docType data
-#' @keyword datasets
-#' @name XXX
-#' @usage XXX
-#' @title
-#' @description 
-#' @format 
-#' @source 
-#' @references
-NULL
 
 

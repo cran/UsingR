@@ -6,7 +6,12 @@ answers <- function() {
   browseURL(f)
 }
 
-
+##' function to get answer to problem
+##' @param chapter which chapter
+##' @param problem which problem
+##' @return opens web page to answer
+##'
+##' @export
 getAnswer = function(chapter=NULL, problem=NULL) {
   ourURLdecode <- function(x) {
     if(is.null(x))
@@ -39,7 +44,14 @@ getAnswer = function(chapter=NULL, problem=NULL) {
   URLBase <- "UsingR"
   URLExtra <- "AnswersToSelectedProblems"
 
-  tools::startDynamicHelp()
+  if (as.numeric(R.Version()$`svn rev`) >= 67550) {
+      port <- tools::startDynamicHelp(NA)
+  } else {
+      port <- environment(tools::startDynamicHelp)$httpdPort
+      if (port == 0)
+          port <- tools::startDynamicHelp()
+  }
+
 
   
   ## set handler
@@ -76,10 +88,15 @@ getAnswer = function(chapter=NULL, problem=NULL) {
   
   chapprob = as.character(paste(chapter,".",problem,sep="",collapse=""))
   if (chapprob %in% allAnswers) {
+
+      port <- ifelse(as.numeric(R.Version()$`svn rev`) >= 67550, 
+                     tools::startDynamicHelp(NA),
+                     environment(tools::startDynamicHelp)$httpdPort)
+      
     url = sprintf("http://127.0.0.1:%s/custom/UsingR/AnswersToSelectedProblems/problem-%s.%s.html",
-        environment(tools::startDynamicHelp)$httpdPort,
-      chapter,
-      problem)
+        port,
+        chapter,
+        problem)
     
     browseURL(url)
   } else {

@@ -1,3 +1,9 @@
+##' function to make a simple set of graphs for a data set
+##'
+##' @param x data
+##' @return NULL
+##' 
+##' @export
 "simple.eda" <-
   function(x) {
     ### create a simple function to explore data

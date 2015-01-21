@@ -1,3 +1,9 @@
+##' function to make a fancier stripchart
+##'
+##' @param l data
+##' @return NULL
+##'
+##' @export
 "simple.fancy.stripchart" <-
   function(l) {
     stripchart(l,pch=1,group.names=names(l))

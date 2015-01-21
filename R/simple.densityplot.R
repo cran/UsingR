@@ -4,9 +4,29 @@
 
 ## "x" can be a dataframe, a formula x ~ f, or a sequence of variable
 ## names as in boxplot.
+
+##' make a simple density plot
+##'
+##' @param x data
+##' @param ... passed on
+##' @return NULL
+##'
+##' @rdname simple.densityplot
+##' @export
 simple.densityplot <- function(x, ...) UseMethod("simple.densityplot")
 
-
+##' default method for simple densityplot
+##'
+##' @param x data
+##' @param ... passed on
+##' @param bw bandwidth
+##' @param do.legend do legend?
+##' @param names names
+##' @param pars pars
+##' @return NULL
+##'
+##' @rdname simple.densityplot
+##' @export
 simple.densityplot.default <-
   function(x,...,
            bw = "nrd0",
@@ -73,7 +93,16 @@ simple.densityplot.default <-
       }
     }
 }                                     # end of default
-                               
+
+##' simple density plot with a formula interface
+##' 
+##' @param formula formula
+##' @param data data frame
+##' @param ... passed on
+##' @param subset subset data
+##'
+##' @rdname simple.densityplot
+##' @export
 simple.densityplot.formula <- function(formula, data = NULL, ..., subset)
 {
     if(missing(formula) || (length(formula) != 3))

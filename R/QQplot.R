@@ -1,3 +1,20 @@
+##' make a fancy qqplot
+##'
+##' @param x a data vector
+##' @param y a data vector
+##' @param n split into this many quantile regions
+##' @param xsf scale factor
+##' @param ysf scale factor
+##' @param main title
+##' @param xlab x label
+##' @param ylab y label
+##' @param pch plot character
+##' @param pcol point color
+##' @param shade shade color
+##' @param ... passed along
+##'
+##' @return NULL
+##' @export
 QQplot = function(x, y, n = 20,
   xsf= 4,ysf= 4,
   main="qqplot",xlab=deparse(substitute(x)), ylab = deparse(substitute(y)),

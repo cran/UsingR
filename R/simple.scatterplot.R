@@ -1,3 +1,11 @@
+##' make a simple scatter plot with histogram
+##'
+##' @param x data
+##' @param y data
+##' @param ... passed on
+##' @return NULL
+##'
+##' @export
 "simple.scatterplot" <-
   function(x,y,...) {
     def.par <- par(no.readonly = TRUE)# save default, for resetting...
