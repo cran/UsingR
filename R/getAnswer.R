@@ -44,7 +44,10 @@ getAnswer = function(chapter=NULL, problem=NULL) {
   URLBase <- "UsingR"
   URLExtra <- "AnswersToSelectedProblems"
 
-  if (as.numeric(R.Version()$`svn rev`) >= 67550) {
+  if ((as.numeric(R.Version()$`svn rev`) >= 67550) &&
+      (as.numeric(R.Version()$major) >= 3) &&
+      (as.numeric(R.Version()$minor) >= 2)
+      ){
       port <- tools::startDynamicHelp(NA)
   } else {
       port <- environment(tools::startDynamicHelp)$httpdPort
@@ -89,7 +92,9 @@ getAnswer = function(chapter=NULL, problem=NULL) {
   chapprob = as.character(paste(chapter,".",problem,sep="",collapse=""))
   if (chapprob %in% allAnswers) {
 
-      port <- ifelse(as.numeric(R.Version()$`svn rev`) >= 67550, 
+      port <- ifelse((as.numeric(R.Version()$`svn rev`) >= 67550) &&
+                     (as.numeric(R.Version()$major) >= 3) &&
+                     (as.numeric(R.Version()$minor) >= 2),
                      tools::startDynamicHelp(NA),
                      environment(tools::startDynamicHelp)$httpdPort)
       

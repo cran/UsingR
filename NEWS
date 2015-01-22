@@ -1,3 +1,8 @@
+## version 2.0-4
+
+* fix dynamic help for R-patched
+* title case Title in DESCRIPTION file
+
 ## version 2.0-3
 
 * change how dynamic help is started for newer R versions
