@@ -18,7 +18,7 @@
   modern. This is a list of 96 common stars.
 }
 \source{
-  Form the Hipparcos website \url{http://astro.estec.esa.nl/Hipparcos/ident6.html}.
+  Form the Hipparcos website http://astro.estec.esa.nl/Hipparcos/ident6.html.
 }
 \examples{
 data(bright.stars)

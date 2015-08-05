@@ -19,7 +19,7 @@
   is simulated from the values published in an excerpt.
 }
 \source{
-  \url{http://www.classactionreports.com/classactionreports/attorneyfee.htm}
+  Original data from http://www.classactionreports.com/classactionreports/attorneyfee.htm
 }
 \references{
   See also "Study Disputes View of Costly Surge in Class-Action Suits"

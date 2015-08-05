@@ -15,12 +15,11 @@
  Time-Series [1:456] from 1952 to 1990: -0.7 1.3 0.1 -0.9 0.8 1.6 1.7 1.4 1.4 1.5 ...
 }
 \source{
-  \url{http://www.itl.nist.gov/div898/handbook/pmc/section4/pmc4412.htm}
+  Originally downloaded from http://www.itl.nist.gov/div898/handbook/pmc/section4/pmc4412.htm
 }
 \references{
-  See
-  \url{http://www.itl.nist.gov/div898/handbook/pmc/section4/pmc4461.htm}
-  for description.
+A description was available at
+  http://www.itl.nist.gov/div898/handbook/pmc/section4/pmc4461.htm
 }
 \examples{
 data(southernosc)

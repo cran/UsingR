@@ -15,7 +15,7 @@
   The row names are the titles of the movies.
 }
 \source{
-  This data was found on \url{http://movieweb.com/movie/alltime.html} on
+  This data was found on http://movieweb.com/movie/alltime.html on
   June 17, 2003. The source of the data is attributed to (partially)
   Exhibitor Relations Co. .
 }

@@ -10,7 +10,7 @@
 #' \code{salary} (average teacher salary; \code{percentage of SAT
 #' takers}; \code{verbal} (verbal score); \code{math} (math score);
 #' \code{total} (average total).
-#' @source \url{http://www.amstat.org/publications/jse/datasets/sat.txt}
+#' @source from http://www.amstat.org/publications/jse/datasets/sat.txt
 #' @references This data comes from
 #' \url{http://www.amstat.org/publications/jse/secure/v7n2/datasets.guber.cfm}. It
 #' is also included in the \pkg{mosaic} package and commented on at
@@ -23,8 +23,8 @@
 #' 1997 \emph{Digest of Education Statistics}, an annual publication
 #' of the U.S. Department of Education.  Data from a number of
 #' different tables were downloaded from the National Center for
-#' Education Statistics (NCES) website (Available at:
-#' \url{http://nces01.ed.gov/pubs/digest97/index.html}) and merged
+#' Education Statistics (NCES) website (found at:
+#' http://nces01.ed.gov/pubs/digest97/index.html) and merged
 #' into a single data file.
 NULL
 
@@ -37,10 +37,10 @@ NULL
 ##' @usage Medicare
 ##' @format A data frame with data about billings for procedures at many different hospitals
 ##' 
-##' @source \url{http://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/index.html}
+##' @source Retrieved from http://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/index.html
 ##' 
-##' @references This data comes from
-##' \url{http://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/index}
+##' @references This data came from
+##' http://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/index
 ##' and was referenced in the article
 ##' \url{http://www.nytimes.com/2013/05/08/business/hospital-billing-varies-wildly-us-data-shows.html},
 ##' as retrieved on 5/8/2013.

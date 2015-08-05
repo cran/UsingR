@@ -18,7 +18,7 @@
 	fluctuations. 
 }
 \source{
- \url{http://www.nps.gov/mora/current/weather.htm} 
+ Original data from http://www.nps.gov/mora/current/weather.htm
 }
 \examples{
 require(zoo)

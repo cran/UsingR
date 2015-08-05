@@ -17,7 +17,7 @@
   Data is sampled from a data set that accompanies the thesis of P. Grosjean.
 }
 \source{
-  Thesis was found at \url{http://www.sciviews.org/_pgrosjean}.
+  Thesis was found at http://www.sciviews.org/_pgrosjean
 }
 \examples{
 data(urchin.growth)

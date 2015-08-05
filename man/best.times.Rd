@@ -24,9 +24,9 @@
   relationship is based on peak performances.  
 }
 \source{
-  The data comes from
-  \url{http://www.personal.rdg.ac.uk/~snsgrubb/athletics/agegroups.html}
-  which includes a calculator to compare results.
+  The data came from
+  http://www.personal.rdg.ac.uk/~snsgrubb/athletics/agegroups.html
+  which included a calculator to compare results.
   
 }
 \examples{

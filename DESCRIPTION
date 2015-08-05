@@ -1,6 +1,6 @@
 Package: UsingR
-Version: 2.0-4
-Title: Data Sets, etc. for the Text "Using R for Introductory
+Version: 2.0-5
+Title: Data Sets, Etc. for the Text "Using R for Introductory
         Statistics", Second Edition
 Author: John Verzani <verzani@math.csi.cuny.edu>
 Maintainer: John Verzani <verzani@math.csi.cuny.edu>
@@ -10,9 +10,8 @@ Description: A collection of data sets to accompany the
 Depends: R (>= 2.15.0), MASS, HistData, Hmisc
 Suggests: zoo, coin, ggplot2, vcd, lubridate, aplpack
 License: GPL (>= 2)
-URL: https://www.github.com/jverzani/UsingR
 LazyData: TRUE
-Packaged: 2015-01-22 01:52:32 UTC; verzani
 NeedsCompilation: no
+Packaged: 2015-08-05 16:14:05 UTC; verzani
 Repository: CRAN
-Date/Publication: 2015-01-22 08:35:41
+Date/Publication: 2015-08-06 07:15:46

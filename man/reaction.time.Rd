@@ -24,7 +24,7 @@
   Mobile Phones on Driver Situation Awareness". 
 }
 \source{
-  The NHTSA study may be found at \url{http://www-nrd.nhtsa.dot.gov/departments/nrd-13/driver-distraction/PDF/2.PDF}
+  The NHTSA study was  found at http://www-nrd.nhtsa.dot.gov/departments/nrd-13/driver-distraction/PDF/2.PDF
 }
 \references{
   This study and others are linked from the web page \url{http://www.accidentreconstruction.com/research/cellphones/}.

@@ -10,7 +10,7 @@
   Matrix with rows recording the year, and columns the month.
 }
 \source{
-  \url{http://www.thedigitalbits.com/articles/cemadvdsales.html}
+  Original data retrieved from http://www.thedigitalbits.com/articles/cemadvdsales.html
 }
 \examples{
 data(dvdsales)

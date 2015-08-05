@@ -10,7 +10,7 @@
 	A ts object with daily frequency
 }
 \source{
-	Extracted from \url{http://www.ce.washington.edu/pub/HYDRO/edm/met_thru_97/vttmin.dly.gz}. Errors were possibly introduced.
+	Extracted from http://www.ce.washington.edu/pub/HYDRO/edm/met_thru_97/vttmin.dly.gz. Errors were possibly introduced.
 }
 \examples{
 data(coldvermont)

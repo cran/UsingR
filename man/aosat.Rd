@@ -13,12 +13,12 @@
   
 }
 \details{
-    See \url{http://jisao.washington.edu/ao/} for more details on the
+   This site http://jisao.washington.edu/ao/ had more details on the
   importance of this time series.
 }
 \source{
   This data came from the file AO\_SATindex\_JFM\_Jan1851March1997.ascii at
-  \url{http://www.atmos.colostate.edu/ao/Data/ao\_index.html}
+  http://www.atmos.colostate.edu/ao/Data/ao\_index.html
 }
 \examples{
 data(aosat)

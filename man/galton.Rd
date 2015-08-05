@@ -24,10 +24,10 @@
 }
 \source{
   This data was found at
-  \url{http://www.bun.kyoto-u.ac.jp/~suchii/galton86.html}.
+  http://www.bun.kyoto-u.ac.jp/~suchii/galton86.html.
 
   See also the data.set \link{father.son} which was found from
-  \url{http://stat-www.berkeley.edu/users/juliab/141C/pearson.dat}. 
+  http://stat-www.berkeley.edu/users/juliab/141C/pearson.dat. 
 }
 \examples{
 data(galton)

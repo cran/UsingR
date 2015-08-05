@@ -17,7 +17,7 @@
 \source{
   "Exact Inference for Categorical Data", by
   Cyrus R. Mehta and Nitin R. Patel. Found at
-  \url{http://www.cytel.com/papers/sxpaper.pdf}. 
+  http://www.cytel.com/papers/sxpaper.pdf. 
 }
 \examples{
 data(oral.lesion)

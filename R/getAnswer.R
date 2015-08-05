@@ -1,12 +1,15 @@
 ##' display all answers in the browser
 ##'
 ##' Means to filter?
+##' @export
 answers <- function() {
   f <- system.file("answers", "print-answers.pdf", package="UsingR")
   browseURL(f)
 }
 
 ##' function to get answer to problem
+##'
+##' Returns answers for the first edition.
 ##' @param chapter which chapter
 ##' @param problem which problem
 ##' @return opens web page to answer

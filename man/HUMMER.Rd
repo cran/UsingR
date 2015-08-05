@@ -14,7 +14,7 @@
 }
 \source{
   Compiled from delivery data avalailble at
-  \url{http://www.gm.com/company/investor_information/sales_prod/hist_sales.html}
+  http://www.gm.com/company/investor_information/sales_prod/hist_sales.html
 }
 \examples{
 data(HUMMER)

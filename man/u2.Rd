@@ -12,7 +12,7 @@
   lengths in seconds and the names are the track titles.
 }
 \source{
-  \url{http://www.u2station.com/u2ography.html}
+  Original data retrieved from http://www.u2station.com/u2ography.html
 }
 \examples{
 data(u2)

@@ -18,9 +18,9 @@ simple.eda.ts(x, lag=1)
 \value{
   Makes the graph with 1 row, 3 columns
 }
-\references{ see
-\url{http://www.itl.nist.gov/div898/handbook/eda/section3/eda34.htm}
-for more information on these and other plots for exploratory data analysis. }
+\references{ Downloaded from
+http://www.itl.nist.gov/div898/handbook/eda/section3/eda34.htm.
+}
 \author{ John Verzani }
 
 

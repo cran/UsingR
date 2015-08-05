@@ -15,8 +15,8 @@ A data set listing GDP, GDP per capita, and CO2 emissions for 1999.  }
   }
 }
 \source{
-  \url{http://www.grida.no} for CO2 data and
-  \url{http://www.mrdowling.com} for GDP data.
+  http://www.grida.no for CO2 data and
+  http://www.mrdowling.com for GDP data.
 
   Prompted by a plot appearing in a June 2001 issue of the \emph{New
   York Times}.

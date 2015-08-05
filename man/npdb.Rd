@@ -19,7 +19,7 @@
   }
 
   The variable names do not match the original. The codings for
-  \code{field} come from a document on \url{http://63.240.212.200/publicdata.html}.
+  \code{field} come from a document on http://63.240.212.200/publicdata.html.
 }
 
 \details{

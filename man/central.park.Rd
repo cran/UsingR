@@ -52,8 +52,8 @@ X = TORNADO)
   issued by the National Weather Service Office.  
 }
 \source{
-  This data is published
-  by \url{http://www.noah.gov}.
+  This data was published
+  on http://www.noah.gov
 }
 \examples{
 data(central.park)

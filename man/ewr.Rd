@@ -39,7 +39,7 @@
   }
 }
 \source{
-  \url{http://www.bts.gov/oai/taxitime/html/ewrtaxi.html}
+  Retrieved from http://www.bts.gov/oai/taxitime/html/ewrtaxi.html
 }
 \examples{
 data(ewr)

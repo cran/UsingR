@@ -19,7 +19,7 @@
 }
 \details{
 Quoting from the data source
-  \url{http://www.house.gov/reform/min/pdfs_108/pdf_inves/pdf_admin_tax_law_cabinet_june_3_rep.pdf} (From Henry Waxman, congressional watchdog.)
+  http://www.house.gov/reform/min/pdfs_108/pdf_inves/pdf_admin_tax_law_cabinet_june_3_rep.pdf (From Henry Waxman, congressional watchdog.)
   
   \dQuote{On May 22, 2003, the House of Representatives and the Senate passed
   tax legislation that included \$320 billion in tax cuts. The final tax
@@ -52,7 +52,7 @@ Quoting from the data source
   }
 
 \source{
-  \url{http://www.house.gov/reform/min/pdfs_108/pdf_inves/pdf_admin_tax_law_cabinet_june_3_rep.pdf} 
+  From http://www.house.gov/reform/min/pdfs_108/pdf_inves/pdf_admin_tax_law_cabinet_june_3_rep.pdfx
 }
 \examples{
 data(cabinet)

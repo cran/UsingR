@@ -12,7 +12,7 @@
   Chinook, Sockeye, Coho, Pink, and Chum.
 }
 \source{
-  This data was found at \url{http://seamarkets.alaska.edu/ak_harv_fish.htm}
+  This data was found at http://seamarkets.alaska.edu/ak_harv_fish.htm
 }
 \examples{
 data(salmonharvest)

@@ -36,7 +36,7 @@ simple.chutes(sim=TRUE,cl)
   returns a trajectory as a vector, or a matrix if asked to return the
   transition matrix
 }
-\references{ board from \url{http://www.ahs.uwaterloo.ca/~musuem/vexhibit/Whitehill/snakes/snakes.gif}  }
+\references{ board was from http://www.ahs.uwaterloo.ca/~musuem/vexhibit/Whitehill/snakes/snakes.gif  }
 \author{John Verzani}
 \examples{
 plot(simple.chutes(sim=TRUE))

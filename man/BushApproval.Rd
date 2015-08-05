@@ -20,10 +20,10 @@
   approximately 1,000 so the margin of error is about 3 percentage points.
 }
 \source{
-  This is from data found at
-  \url{http://www.pollingreport.com/BushJob.htm}. The idea came from an
+  This data was found at
+  http://www.pollingreport.com/BushJob.htm. The idea came from an
   article in \emph{Salon}
-  \url{http://salon.com/opinion/feature/2004/02/09/bush_approval/index.html}  by James K. Galbraith.
+  http://salon.com/opinion/feature/2004/02/09/bush_approval/index.html  by James K. Galbraith.
 }
 \examples{
 data(BushApproval)

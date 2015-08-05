@@ -22,8 +22,8 @@
   data is sampled from the data in that table.
 }
 \source{
-  The original table is found at
-  \url{http://ferret.bls.census.gov/macro/032002/perinc/new11_002.htm}. 
+  The original table was found at
+  http://ferret.bls.census.gov/macro/032002/perinc/new11_002.htm
 }
 \examples{
 data(female.inc)

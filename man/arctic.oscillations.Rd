@@ -17,7 +17,7 @@
 }
 \source{
   The data came from the file AO\_TREN\_NCEP\_Jan1899Current.ascii found at
-  \url{http://www.atmos.colostate.edu/ao/Data/ao\_index.html}.
+  http://www.atmos.colostate.edu/ao/Data/ao\_index.html.
 }
 \examples{
 data(arctic.oscillations)

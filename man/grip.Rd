@@ -16,9 +16,9 @@
   }
 }
 \details{
-  Based on a study done at
-  \url{http://www.montana.edu/wwwhhd/movementscilab/}
-  mentioned at \url{http://www.xcskiworld.com/}. The study investigates
+  Based on a study originally described at
+  http://www.montana.edu/wwwhhd/movementscilab/ and
+  mentioned on http://www.xcskiworld.com/. The study investigated
   the effect of grip type on upper body power. As this influences
   performance in races, presumably a skier would prefer the grip that
   provides the best power output.

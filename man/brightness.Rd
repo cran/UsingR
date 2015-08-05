@@ -16,7 +16,7 @@
   Johnson UBV photometric system. The smaller numbers are for brighter stars.
 }
 \source{
-  \url{http://astro.estec.esa.nl/hipparcos}
+	http://astro.estec.esa.nl/hipparcos
 }
 \examples{
 data(brightness)

@@ -10,7 +10,7 @@
   A zoo class object with index stored as POSIXct elements. The measurements are in Celsius.
 }
 \source{
-NODC Coastal Ocean Time Series Database Search Page \url{http://www.nodc.noaa.gov/dsdt/tsdb/search.html}
+NODC Coastal Ocean Time Series Database Search Page which was at http://www.nodc.noaa.gov/dsdt/tsdb/search.html
 }
 \examples{
 if(require(zoo)) {

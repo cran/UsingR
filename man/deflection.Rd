@@ -16,7 +16,7 @@
   }
 }
 \source{
-  From an example in \emph{Engineering Statistics Handbook} from \url{http://www.itl.nist.gov/div898/handbook/}
+  From an example in \emph{Engineering Statistics Handbook} from http://www.itl.nist.gov/div898/handbook/
 }
 \examples{
 data(deflection)
