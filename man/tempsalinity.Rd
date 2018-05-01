@@ -13,7 +13,7 @@
 \format{
   The data is stored as multivariate zooreg object with variables
   longitude, latitude, temperature (Celsius), and salinity (psu -
-  practical salinity units \url{http://www.toptotop.org/climate/psu.php}).
+  practical salinity units, originally from \url{http://www.toptotop.org/climate}).
 }
 \details{
   The temperature salinity profile of body of water can be

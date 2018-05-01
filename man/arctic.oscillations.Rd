@@ -12,11 +12,11 @@
  chr "arctic.oscillations"
 }
 \details{
-  See \url{http://jisao.washington.edu/ao/} for more details on the
-  importance of this time series.
+  See \url{https://toptotop.org/} for more details on the
+  importance of climate studies.
 }
 \source{
-  The data came from the file AO\_TREN\_NCEP\_Jan1899Current.ascii found at
+  The data came from the file AO\_TREN\_NCEP\_Jan1899Current.ascii found many years ago at
   http://www.atmos.colostate.edu/ao/Data/ao\_index.html.
 }
 \examples{

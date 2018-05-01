@@ -21,7 +21,7 @@
 }
 \source{
       Time Series Data
-      Library:\url{http://www-personal.buseco.monash.edu.au/~hyndman/TSDL/} 
+      Library:\url{https://robjhyndman.com/TSDL/} 
 }
 \references{
   This data set is in the tseries package. It is repackaged here for

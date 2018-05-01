@@ -56,7 +56,7 @@
     }
 
     ## did we  ask for a predition
-    if (pred) {
+    if (!is.logical(pred)) {
       print(predict(tmp.lm,data.frame(x = pred)))
     }
     

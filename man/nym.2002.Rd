@@ -21,7 +21,7 @@
   Marathon. This list is a random sample from the finishers.
 }
 \source{
-  From the New York City Road Runners web site \url{http://www.nyrrc.org}
+  From the New York City Road Runners web site \url{http://www.nyrc.org}
 }
 \examples{
 data(nym.2002)

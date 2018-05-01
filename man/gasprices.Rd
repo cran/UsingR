@@ -13,8 +13,8 @@
  Time-Series [1:74] from 2000 to 2006: 129 138 152 146 148 ...
 }
 \source{
-  From the Department of Energy web site:
-  \url{http://tonto.eia.doe.gov/oog/info/gdu/gaspump.html}
+  Oringally from the Department of Energy web site:
+  https://www.eia.gov/petroleum/gasdiesel/
 }
 \examples{
 data(gasprices)

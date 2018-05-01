@@ -30,7 +30,7 @@
   (U.S.). This data is a primary source for determining this debate.
 
   
-  A quotation from  \url{http://www.npdb-hipdb.com/npdb.html}:
+  A quotation from  \url{http://www.npdb-hipdb.com/}:
   
   \dQuote{The legislation that led to the creation of the NPDB was
   enacted the U.S. Congress believed that the increasing occurrence of
@@ -49,7 +49,7 @@
 }
 
 \source{
-  This data came from \url{http://www.npdb-hipdb.com/npdb.html}
+  This data came from \url{http://www.npdb-hipdb.com/}
 }
 \examples{
 data(npdb)
