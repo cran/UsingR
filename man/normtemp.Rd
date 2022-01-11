@@ -4,7 +4,7 @@
 \title{ Body temperature and heart rate of 130 health individuals}
 \description{
   A data set used to investigate the claim that \dQuote{normal} temperature is
-  98.6 degrees. 
+  98.6 degrees.
 }
 \usage{data(normtemp)}
 \format{
@@ -23,10 +23,10 @@
 \source{
   This data set was contributed by Allen L. Shoemaker to the
   \emph{Journal of Statistics Education},
-  \url{http://www.amstat.org/publications/jse/datasets/normtemp.txt}.
+  \url{http://jse.amstat.org/datasets/normtemp.txt}.
 }
 \references{
-  Data set is simulated from values contained in 
+  Data set is simulated from values contained in
 Mackowiak, P. A., Wasserman, S. S., and Levine, M. M.  (1992), "A
 Critical Appraisal of 98.6 Degrees F, the Upper Limit of the Normal Body
 Temperature, and Other Legacies of Carl Reinhold August Wunderlich,"

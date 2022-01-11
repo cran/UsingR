@@ -29,7 +29,7 @@ ceiling(sum(x)/nrows),
 \value{
   Creates the graph, but has no return  value.
 }
-\references{ The \emph{New York Times}, \url{www.nytimes.com}. In particular,
+\references{ The \emph{New York Times}, \url{https://www.nytimes.com}. In particular,
 Sports page 6, June 15, 2003. }
 \author{ John Verzani }
 

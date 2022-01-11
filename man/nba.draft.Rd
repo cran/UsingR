@@ -21,7 +21,7 @@
   poorer records having better odds of winning.
 }
 \source{
-  Data is taken from \url{http://www.nba.com/news/draft_ties_020424.html}.
+  Data is taken from \url{https://www.nba.com/news/draft_ties_020424.html}.
 }
 \examples{
 data(nba.draft)

@@ -1,10 +1,10 @@
 # Errata for *Using R for Introductory Statistics*, second edition.
 
 
-* Thanks to: William Kitto, Antelope Valley College for finding errors in the Solutions Manual (9.2 and 9.4).
-* Thanks to  Demetrios Papanastassiou for finding several issues in chapter 3 and elsewhere.
+* Thanks to William Kitto, Antelope Valley College for finding errors in the Solutions Manual (9.2 and 9.4).
+* Thanks to Demetrios Papanastassiou for finding several issues in Chapter 3 and elsewhere.
 * Thanks to Mr. Demetrios Kostakis for finding several issues.
-
+* Thanks to Matthew Gurney for finding an error  in Chapter 8.
 
 ## Chapter 3
 
@@ -51,6 +51,8 @@ The slope of 4 is more reasonable. (Thanks to  Demetrios Papanastassiou.)
 * p267 line 4: Should be "What is a 90% condidence interval" and not "confidence level."
 
 * p270, line -3: Divisor should be `M` and not `n`. This would give a value of $0.9$.
+
+* p273 Question 8.6 Making Coffee. The question asks for an 90% confidence interval, but the answer calculates using 80%.
 
 * p280, line -2: the data set is `nym.2002` not `nyc.2002`.
 

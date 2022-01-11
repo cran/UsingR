@@ -15,7 +15,7 @@
 \source{
   From the tcm data set in the tseries package. Given here for
   convenience only. They reference
-  \url{http://www.federalreserve.gov/Releases/H15/data.htm}
+  \url{https://www.federalreserve.gov/Releases/H15/data.htm}.
 }
 \examples{
 data(tcm1y)

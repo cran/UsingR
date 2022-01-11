@@ -9,7 +9,7 @@ in units of \$10,000.  }
   of dollars.
 }
 \source{
-\emph{New York Times} Business section 04/01/2001. See also \url{http://www.aflcio.org}.
+\emph{New York Times} Business section 04/01/2001. See also \url{https://aflcio.org}.
 }
 \examples{
 data(exec.pay)

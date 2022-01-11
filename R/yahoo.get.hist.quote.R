@@ -10,7 +10,7 @@ yahoo.get.hist.quote <-
            ,start, end, quote = c("Open", "High", "Low", "Close"),
            adjusted=TRUE, download=TRUE,
            origin = "1970-01-01", compression = "d")  {
-    
+
 #######################################################
 ### read local quotes file
 ### adapted from tseries, RMetrics
@@ -34,35 +34,35 @@ yahoo.get.hist.quote <-
       if(nlines == 1) {
         stop(paste("No data available for", instrument))
       }
-      
+
       x <- read.table(destfile, header = TRUE,
                       sep = ",", as.is = TRUE, fill = TRUE)
       x <- na.omit(x)
-      
+
                                         # !!! do adjustements
       if (adjusted) {
         adjust=x[,7]/x[,5] # factor
-        x[,2]=x[,2]*adjust # 
+        x[,2]=x[,2]*adjust #
         x[,3]=x[,3]*adjust
         x[,4]=x[,4]*adjust
         x[,5]=x[,7]					# close = adjusted close
         x[,6]==x[,6]/adjust # divide for volume
       }
-    
+
       ##  remove file
       unlink(destfile)
-    
+
       nser <- pmatch(quote, names(x)[-1]) + 1
       if(any(is.na(nser)))
         stop("This quote is not available")
       n <- nrow(x)
-    
+
       ## Yahoo currently formats dates as '26-Jun-01', hence need C
       ## LC_TIME locale for getting the month right.
       lct <- Sys.getlocale("LC_TIME")
       Sys.setlocale("LC_TIME", "C")
       on.exit(Sys.setlocale("LC_TIME", lct))
-      
+
       dat <- gsub(" ", "0", as.character(x[, 1])) # Need the gsub?
       dat <- as.POSIXct(strptime(dat, "%d-%b-%y"), tz = "GMT")
       ## quiet this function
@@ -80,9 +80,9 @@ yahoo.get.hist.quote <-
       colnames(y) <- names(x)[nser]
       return(ts(y, start = jdat[n], end = jdat[1]))
     }
-  
-  
-  
+
+
+
 #######################################################
 ### download quotes file
 ### adapted from tseries, RMetrics
@@ -91,15 +91,15 @@ yahoo.get.hist.quote <-
   yahoo.get.hist.quote.download=function (
     instrument = "^gspc"
     ,destfile = paste(instrument,".csv",sep="")
-    ,start, end, origin = "1970-01-01", compression = "d") 
+    ,start, end, origin = "1970-01-01", compression = "d")
     {
-      if (missing(start)) 
+      if (missing(start))
         start <- "1991-01-02"
-      if (missing(end)) 
+      if (missing(end))
         end <- format(Sys.time() - 86400, "%Y-%m-%d")
       start <- as.POSIXct(start, tz = "GMT")
       end <- as.POSIXct(end, tz = "GMT")
-      url <- paste("http://chart.yahoo.com/table.csv?s=", instrument, 
+      url <- paste("https://chart.yahoo.com/table.csv?s=", instrument,
                    format(start,
                           paste(
                                 "&a=", as.character(as.numeric(format(start,"%m"))
@@ -108,28 +108,27 @@ yahoo.get.hist.quote <-
                    format(end,
                           paste("&d=",
                                 as.character(as.numeric(format(end, "%m")) - 1), "&e=%d&f=%Y", sep = "")),
-                   "&g=", 
+                   "&g=",
                    compression,
                    "&q=q&y=0&z=", instrument,
-                   "&x=.csv", 
+                   "&x=.csv",
                    sep = "")
-      
+
       status <- download.file(url, destfile)
       if (status != 0) {
         unlink(destfile)
         stop(paste("download error, status", status))
       }
     }
-  
-  
+
+
   if (download) {
     yahoo.get.hist.quote.download(instrument=instrument,destfile=destfile
                                   ,start=start, end=end, origin = origin,
-                                  compression=compression) 
+                                  compression=compression)
   }
   yahoo.get.hist.quote.local(instrument=instrument,destfile=destfile
                              ,start=start, end=end
                              ,quote=quote,adjusted=adjusted
-                             ,origin = origin) 
+                             ,origin = origin)
 }
-

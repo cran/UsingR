@@ -8,7 +8,7 @@
   percentages, and other statistics of interest to baseball fans. The
   data only contains players with more than 100 atbats for a team in the
   year. The data is excerpted with permission from the Lahman baseball
-  database at \url{http://www.baseball1.com/}.
+  database at \url{http://www.seanlahman.com/}.
 
 }
 \usage{data(batting)}
@@ -45,19 +45,19 @@
   Baseball fans are \dQuote{statistics} crazy. They love to talk about things
   like RBIs, BAs and OBPs. In order to do so, they need the
   numbers. This data comes from the Lahman baseball
-  database at \url{http://www.baseball1.com/}. The complete dataset
+  database at \url{http://www.seanlahman.com/}. The complete dataset
   includes data for all of baseball not just the year 2002 presented here.
 
 }
 \source{
-   Lahman baseball database, \url{http://www.baseball1.com/}
+   Lahman baseball database, \url{http://www.seanlahman.com/)}
 }
 \references{
   In addition to the data set above, the book
   \emph{Curve Ball}, by Albert, J. and Bennett, J., Copernicus Books,
   gives an extensive statistical analysis of baseball.
 
-  See \url{http://www.baseball-almanac.com/stats.shtml} for definitions
+  See \url{https://www.baseball-almanac.com/stats.shtml} for definitions
   of common baseball statistics.
 }
 \examples{

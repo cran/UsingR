@@ -8,7 +8,7 @@
 }
 \usage{data(npdb)}
 \format{
-  A data frame with 6797 observations on the following 6 variables. 
+  A data frame with 6797 observations on the following 6 variables.
   \describe{
     \item{state}{2 digit abbreviation of state}
     \item{field}{Field of practice}
@@ -29,9 +29,9 @@
   lower insurance costs is currently being debated nationwide
   (U.S.). This data is a primary source for determining this debate.
 
-  
-  A quotation from  \url{http://www.npdb-hipdb.com/}:
-  
+
+  A quotation from  \url{https://npdb-hipdb.com/}:
+
   \dQuote{The legislation that led to the creation of the NPDB was
   enacted the U.S. Congress believed that the increasing occurrence of
   medical malpractice litigation and the need to improve the quality of medical
@@ -49,7 +49,7 @@
 }
 
 \source{
-  This data came from \url{http://www.npdb-hipdb.com/}
+  This data came from \url{https://npdb-hipdb.com/}
 }
 \examples{
 data(npdb)

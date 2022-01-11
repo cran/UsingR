@@ -12,11 +12,11 @@
 #' \code{total} (average total).
 #' @source from http://www.amstat.org/publications/jse/datasets/sat.txt
 #' @references This data comes from
-#' \url{http://www.amstat.org/publications/jse/secure/v7n2/datasets.guber.cfm}. It
+#' \url{https://www.amstat.org/publications/jse/secure/v7n2/datasets.guber.cfm}. It
 #' is also included in the \pkg{mosaic} package and commented on at
 #' \url{http://sas-and-r.blogspot.com/2012/02/example-920-visualizing-simpsons.html}. The
 #' variables are described at
-#' \url{http://www.amstat.org/publications/jse/datasets/sat.txt}.
+#' \url{https://www.amstat.org/publications/jse/datasets/sat.txt}.
 #'
 #' The author references the original source: The variables in this
 #' dataset, all aggregated to the state level, were extracted from the
@@ -36,13 +36,13 @@ NULL
 ##' @docType data
 ##' @usage Medicare
 ##' @format A data frame with data about billings for procedures at many different hospitals
-##' 
+##'
 ##' @source Retrieved from http://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/index.html
-##' 
+##'
 ##' @references This data came from
 ##' http://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/index
 ##' and was referenced in the article
-##' \url{http://www.nytimes.com/2013/05/08/business/hospital-billing-varies-wildly-us-data-shows.html},
+##' \url{https://www.nytimes.com/2013/05/08/business/hospital-billing-varies-wildly-us-data-shows.html},
 ##' as retrieved on 5/8/2013.
 NULL
 
@@ -53,10 +53,10 @@ NULL
 ##' @docType data
 ##' @usage wellbeing
 ##' @format A data frame with data about what makes people happy (well being) along with several other covariates
-##' 
-##' @source Found from \url{http://prcweb.co.uk/lab/what-makes-us-happy/}.
-##' 
-##' @references \url{http://prcweb.co.uk/lab/what-makes-us-happy/} and \url{http://www.nationalaccountsofwellbeing.org/}
+##'
+##' @source Found from \url{https://prcweb.co.uk/lab/what-makes-us-happy/}.
+##'
+##' @references \url{https://prcweb.co.uk/lab/what-makes-us-happy/} and \url{http://www.nationalaccountsofwellbeing.org/}
 NULL
 
 
@@ -66,15 +66,11 @@ NULL
 ##' @docType data
 ##' @usage nisdc
 ##' @format A data frame measuring daily sea-ice extent from 1978 until 2013.
-##' 
+##'
 ##' @source Original data from
-##' \url{ftp://sidads.colorado.edu/DATASETS/NOAA/G02135/north/daily/data/NH_seaice_extent_final.csv}
+##' ftp://sidads.colorado.edu/DATASETS/NOAA/G02135/north/daily/data/NH_seaice_extent_final.csv
 ##' and
-##' \url{ftp://sidads.colorado.edu/DATASETS/NOAA/G02135/north/daily/data/NH_seaice_extent_nrt.csv}. The
-##' data can be downloaded with
-##' \code{read.table(.,sep=",",skip=2,col.names=col.names)}.
-##' Usage is like:
-##' \code{ggplot(nisdc, aes(y=Extent,x=factor(Month))) + geom_boxplot() + facet_wrap(~Year)}
+##' ftp://sidads.colorado.edu/DATASETS/NOAA/G02135/north/daily/data/NH_seaice_extent_nrt.csv is lost.
 ##' @references See the blog post \url{http://www.r-bloggers.com/arctic-sea-ice-at-lowest-levels-since-observations-began/} for a description and nice script to play with.
 NULL
 
@@ -85,7 +81,7 @@ NULL
 #' @usage data(wchomes)
 #' @title A random sample of Wake County, North Carolina residential real estate plots
 #' @description This data set comes from a JSE article
-#' \url{http://www.amstat.org/publications/jse/v16n3/woodard.pdf} by
+#' \url{https://www.amstat.org/publications/jse/v16n3/woodard.pdf} by
 #' Roger Woodard. The data is described by: The information for this
 #' data set was taken from a Wake County, North Carolina real estate
 #' database. Wake County is home to the capital of North Carolina,
@@ -110,7 +106,7 @@ NULL
 #' @title Approval ratings for President Obama
 #' @description A collection of approval ratings for President Obama spanning a duration from early 2010 to the summer of 2013.
 #' @format A data frame
-#' @source Scraped on 7-5-13 from \url{http://www.realclearpolitics.com/epolls/other/president_obama_job_approval-1044.html}
+#' @source Scraped on 7-5-13 from http://www.realclearpolitics.com/epolls/other/president_obama_job_approval-1044.html
 NULL
 
 
@@ -121,7 +117,7 @@ NULL
 #' @title CEO compensation in 2013
 #' @description Data on top 200 CEO compensations in the year 2013
 #' @format A data frame
-#' @source Scraped from \url{http://www.nytimes.com/interactive/2013/06/30/business/executive-compensation-tables.html?ref=business}
+#' @source Scraped from \url{https://www.nytimes.com/interactive/2013/06/30/business/executive-compensation-tables.html?ref=business}
 NULL
 
 #' @name movie_data_2011
@@ -129,8 +125,8 @@ NULL
 #' @description A data frame with variables \code{Previous} (previous weekend rank), \code{Movie} (title), \code{Distributor}, \code{Genre}, \code{Gross} (per current weekend), \code{Change} (change from previous week), \code{Theaters} (number of theaters), \code{TotalGross} (total gross to date), \code{Days} (days out), \code{weekend} (weekend of report)
 #' @docType data
 #' @usage movie_data_2011
-#' @format A data frame 
-#' @source Scraped from pages such as \url{http://www.the-numbers.com/box-office-chart/weekend/2011/04/29}
+#' @format A data frame
+#' @source Scraped from pages such as \url{https://www.the-numbers.com/box-office-chart/weekend/2011/04/29}
 NULL
 
 
@@ -141,10 +137,5 @@ NULL
 #' @title Snack data from the USDA
 #' @description subset of SR26 data on nutrients compiled by the USDA.
 #' @format A data frame with some nutrition variables
-#' @source This data came from the SR26 data set found at \url{http://www.ars.usda.gov/Services/docs.htm?docid=8964}.
+#' @source This data came from the SR26 data set found at \url{https://www.ars.usda.gov/Services/docs.htm?docid=8964}.
 NULL
-
-
-
-
-

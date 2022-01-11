@@ -31,7 +31,7 @@
 \source{
   This data is sampled from the data set  "Health Behavior in School-Aged
   Children, 1996: [United States]" collected by the World Health
-  Organization, \url{http://www.icpsr.umich.edu/}. It is available at
+  Organization, https://www.icpsr.umich.edu/. It is available at
   the Substance Abuse and Mental Health Data Archive (SAMHDA). Only
   complete cases are given.
 }

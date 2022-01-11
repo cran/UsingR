@@ -18,7 +18,7 @@
 \details{
   The value of a car depreciates over time. This data gives the price of a
   new car and values of similar models for previous years as reported by
-  \url{http://www.edmunds.com}.
+  https://www.edmunds.com.
 }
 \examples{
 data(midsize)

@@ -6,7 +6,7 @@
   A bag of the candy M and M's has many different colors. Each large
   production batch is blended to the ratios given in this data set. The
   batches are thoroughly mixed and then the individual packages are
-  filled by weight using high-speed equipment, not by count. 
+  filled by weight using high-speed equipment, not by count.
 }
 \usage{data(mandms)}
 \format{
@@ -23,7 +23,7 @@
 \source{
   This data is attributed to an email sent by Masterfoods USA, A Mars,
   Incoporated Company. This email was archived at the Math Forum,
-  \url{http://www.mathforum.org}.
+  http://www.mathforum.org (now off-line).
 }
 \examples{
 data(mandms)

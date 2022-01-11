@@ -13,13 +13,13 @@
 }
 \details{
   Provisional monthly mean ozone values for Halley Bay Antartica between
-  1956 and 2005. Data comes from \url{http://www.antarctica.ac.uk/met/jds/ozone/}.
+  1956 and 2005. Data comes from \url{https://legacy.bas.ac.uk/met/jds/ozone/}.
 }
 \source{
-  \url{http://www.antarctica.ac.uk/met/jds/ozone/data/ZNOZ.DAT}
+  Found at https://legacy.bas.ac.uk/met/jds/ozone/data/ZNOZ.DAT, now off-line.
 }
 \references{
-  See \url{www.meteohistory.org/2004proceedings1.1/pdfs/11christie.pdf}
+  See \url{https://www.meteohistory.org/2004proceedings1.1/pdfs/11christie.pdf}
   for a discussion of data collection and the Ozone hole.
 }
 \examples{

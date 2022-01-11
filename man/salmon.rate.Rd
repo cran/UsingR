@@ -26,7 +26,7 @@
 \source{
   These values are from D.G. Chen and L. Blair Holtby, \dQuote{A regional
     meta-model for stock recruitment analysis using an empirical
-    Bayesian approach}, found at \url{http://www.iphc.washington.edu/}.
+    Bayesian approach}, found at \url{https://iphc.int/}.
 
 
   }

@@ -23,8 +23,8 @@
   the DJIA did well.
 }
 \source{
-  The DJIA data is from \url{http://finance.yahoo.com} the temperature data from
-  \url{http://www.noaa.gov}. 
+  The DJIA data was taken from https://finance.yahoo.com the temperature data from
+  \url{https://www.noaa.gov}.
 }
 \examples{
 data(maydow)

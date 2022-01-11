@@ -21,13 +21,13 @@
   Several studies indicate that cell phone usage while driving can
   effect reaction times to external events. This dataset uses simulated data
   based on values from the  NHTSA study "The Influence of the Use of
-  Mobile Phones on Driver Situation Awareness". 
+  Mobile Phones on Driver Situation Awareness".
 }
 \source{
   The NHTSA study was  found at http://www-nrd.nhtsa.dot.gov/departments/nrd-13/driver-distraction/PDF/2.PDF
 }
 \references{
-  This study and others are linked from the web page \url{http://www.accidentreconstruction.com/research/cellphones/}.
+  This study and others were linked from the web page http://www.accidentreconstruction.com/research/cellphones/ (now off-line).
 }
 \examples{
 data(reaction.time)

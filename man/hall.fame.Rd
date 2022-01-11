@@ -35,15 +35,15 @@ membership}
     \item{Stolen.Base.Runs}{Runs scored by stealing}
     \item{Fielding.Average}{Fielding average}
     \item{Fielding.Runs}{Fielding runs}
-    \item{Primary.Position.Played}{    C = Catcher, 
-    1 = First Base, 
-    2 = Second Base, 
-    3 = Third Base, 
-    S = Shortstop, 
-    O = Outfield, and 
+    \item{Primary.Position.Played}{    C = Catcher,
+    1 = First Base,
+    2 = Second Base,
+    3 = Third Base,
+    S = Shortstop,
+    O = Outfield, and
     D = Designated hitter}
     \item{Total.Player.Rating}{a numeric vector}
-    \item{Hall.Fame.Membership}{    Not a member, 
+    \item{Hall.Fame.Membership}{    Not a member,
     Elected by the BBWAA, or
     Chosen by the Old Timers Committee or Veterans Committee}
   }
@@ -53,12 +53,12 @@ membership}
   data set contains many variables used to assess a players
   career. The Hall of Fame is reserved for outstanding players as judged
   initially by the Baseball Writers Association and subsequently by the
-  Veterans Committee.  
+  Veterans Committee.
 }
 \source{
   This data set was submitted to the \emph{Journal of Statistical
   Education},
-  \url{http://www.amstat.org/publications/jse/secure/v8n2/datasets.cochran.new.cfm},
+  https://www.amstat.org/publications/jse/secure/v8n2/datasets.cochran.new.cfm (now off-line),
   by James J. Cochran.
 }
 \examples{

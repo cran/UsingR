@@ -13,8 +13,8 @@
 }
 \source{
 	This data set is used in Tsay, Analysis of Financial Time
-	Series.  It was downloaded from
-	\url{www.gsb.uchicago.edu/fac/ruey.tsay/teaching/fts}. The
+	Series.  At the time, it was downloaded from
+	www.gsb.uchicago.edu/fac/ruey.tsay/teaching/fts (now off-line). The
 	fSeries package may also contain this data set.
 
 }

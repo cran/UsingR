@@ -12,7 +12,7 @@ CEO compensation in 2013
  a data frame.
 }
 \source{
-Scraped from \url{http://www.nytimes.com/interactive/2013/06/30/business/executive-compensation-tables.html?ref=business}
+Scraped from \url{https://archive.nytimes.com/www.nytimes.com/interactive/2013/06/30/business/executive-compensation-tables.html?ref=business}
 }
 \examples{
 data(ceo2013)

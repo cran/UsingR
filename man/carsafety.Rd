@@ -28,7 +28,7 @@
 \source{
   From "Big and Bad" by Malcolm Gladwell. \emph{New Yorker}, Jan. 12 2004
   pp28-33. Data attributed to Tom Wenzel and Marc Ross who have written
-  \url{http://www.lbl.gov/Science-Articles/Archive/assets/images/2002/Aug-26-2002/SUV-report.pdf}. 
+  \url{https://www2.lbl.gov/Science-Articles/Archive/assets/images/2002/Aug-26-2002/SUV-report.pdf}.
 }
 \examples{
 data(carsafety)

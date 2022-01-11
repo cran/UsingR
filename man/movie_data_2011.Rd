@@ -7,7 +7,7 @@
 \format{
 A data frame with variables \code{Previous} (previous weekend rank), \code{Movie} (title), \code{Distributor}, \code{Genre}, \code{Gross} (per current weekend), \code{Change} (change from previous week), \code{Theaters} (number of theaters), \code{TotalGross} (total gross to date), \code{Days} (days out), \code{weekend} (weekend of report)
 }
-\source{Scraped from pages such as \url{http://www.the-numbers.com/box-office-chart/weekend/2011/04/29}
+\source{Scraped from pages such as \url{https://www.the-numbers.com/box-office-chart/weekend/2011/04/29}
 }
 \examples{
 data(movie_data_2011)

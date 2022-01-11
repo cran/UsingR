@@ -5,7 +5,7 @@
 \description{
   For years people have tried to estimate the age of the universe. This
   data set collects a few estimates starting with lower bounds using
-  estimates for the earth's age. 
+  estimates for the earth's age.
 }
 \usage{data(age.universe)}
 \format{
@@ -26,12 +26,12 @@
 }
 \source{
   This data was collected from the following web sites:
-  \url{http://arxiv.org/abs/1212.5225},
-  \url{http://www.cwru.edu/pubaff/univcomm/2003/1-03/kraussuniverse.htm},
-  \url{http://www.astro.ucla.edu/~wright/age.html},
-  \url{http://www.lhup.edu/~dsimanek/cutting/ageuniv.htm}, and
-  \url{http://map.gsfc.nasa.gov/m_uni/uni_101age.html}.
-  
+  \url{https://arxiv.org/abs/1212.5225},
+  https://case.edu/pubaff/univcomm/2003/1-03/kraussuniverse.html (now off-line),
+  \url{https://www.astro.ucla.edu/~wright/age.html},
+  http://www.lhup.edu/~dsimanek/cutting/ageuniv.htm (now off-line), and
+  \url{https://map.gsfc.nasa.gov/m_uni/uni_101age.html}.
+
 }
 \examples{
 data(age.universe)

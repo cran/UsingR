@@ -12,11 +12,11 @@
 \format{
  438 numbers between 0 and 1 corresponding the on base \dQuote{percentage} for
  the 438 players who had 100 or more at bats in the 2002 baseball
- season. The "outlier" is Barry Bonds. 
+ season. The "outlier" is Barry Bonds.
 }
 \source{
   This data came from the  interesting Lahman baseball data base
-  \url{http://www.baseball1.com/}. The names attribute uses the \code{playerID}
+  \url{http://www.seanlahman.com/}. The names attribute uses the \code{playerID}
   from this database. Unfortunately there were some errors in the
   extraction from the original data set. Consult the original for
   accurate numbers.

@@ -6,7 +6,7 @@
   The \code{babyboom} dataset contains the time of birth, sex, and birth
   weight for 44 babies born in one 24-hour period at a hospital in
   Brisbane, Australia.
-} 
+}
 \usage{data(babyboom)}
 \format{
   A data frame with 44 observations on the following 4 variables.
@@ -20,7 +20,7 @@
 \source{
   This data set was submitted to the \emph{Journal of Statistical
   Education},
-  \url{http://www.amstat.org/publications/jse/secure/v7n3/datasets.dunn.cfm},
+  https://www.amstat.org/publications/jse/secure/v7n3/datasets.dunn.cfm (now off-line),
   by Peter K. Dunn.
 }
 \examples{

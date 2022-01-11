@@ -3,7 +3,7 @@
 \docType{data}
 \title{Carbon Dioxide Emissions from the U.S.A. from fossil fuel }
 \description{
-  Carbon Dioxide Emissions from the U.S.A. from fossil fuel 
+  Carbon Dioxide Emissions from the U.S.A. from fossil fuel
 }
 \usage{data(co2emiss)}
 \format{
@@ -11,11 +11,11 @@
  Time-Series [1:276] from 1981 to 2004: -30.5 -30.4 -30.3 -29.8 -29.6 ...
 }
 \details{
-  Monthly estimates of 13C/12C in fossil-fuel CO2 emissions. For write
-  up see
-  \url{http://cdiac.esd.ornl.gov/trends/emis_mon/emis_mon_co2.html}. In
-  particular find:
+  Monthly estimates of 13C/12C in fossil-fuel CO2 emissions. Originally
+  at
+  http://cdiac.esd.ornl.gov/trends/emis_mon/emis_mon_co2.html; now off-line.
 
+  At one time:
   "An annual cycle, peaking during the winter months and reflecting
   natural gas consumption, and a semi-annual cycle of lesser amplitude,
   peaking in summer and winter and reflecting coal consumption, comprise
@@ -28,7 +28,7 @@
 
 }
 \source{
-  \url{http://cdiac.esd.ornl.gov/ftp/trends/emis_mon/emis_mon_c13.dat}
+  http://cdiac.esd.ornl.gov/ftp/trends/emis_mon/emis_mon_c13.dat (off-line)
 }
 \examples{
 data(co2emiss)

@@ -18,7 +18,7 @@ http://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Re
 This data came from
 http://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/index
 and was referenced in the article
-\url{http://www.nytimes.com/2013/05/08/business/hospital-billing-varies-wildly-us-data-shows.html},
+\url{https://www.nytimes.com/2013/05/08/business/hospital-billing-varies-wildly-us-data-shows.html},
 as retrieved on 5/8/2013.
 }
 \examples{

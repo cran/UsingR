@@ -11,7 +11,7 @@
 }
 \source{
   This type of data, and much more, is available from
-  \url{http://www.noaa.gov}.
+  \url{https://www.noaa.gov}.
 }
 \examples{
 data(central.park.cloud)

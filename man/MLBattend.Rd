@@ -4,7 +4,7 @@
 \title{Major league baseball attendance data}
 \description{
   Data on home-game attendance in Major League Baseball for the years
-  1969-2000. 
+  1969-2000.
 }
 \usage{data(MLBattend)}
 \format{
@@ -25,7 +25,7 @@
 }
 \source{
   This data was submitted to \emph{The Journal of Statistical Education}
-  by James J. Cochran, \url{http://www.amstat.org/publications/jse/v10n2/datasets.cochran.html}.
+  by James J. Cochran, \url{http://jse.amstat.org/v10n2/datasets.cochran.html}.
 }
 \examples{
 data(MLBattend)

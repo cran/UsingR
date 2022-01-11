@@ -28,7 +28,7 @@
 }
 \references{
   See also
-  \url{http://www.soest.hawaii.edu/PFRP/large_pelagic_predators.html}
+  http://www.soest.hawaii.edu/PFRP/large_pelagic_predators.html
   for rebuttals to the Myers and Worm article.
 }
 \examples{

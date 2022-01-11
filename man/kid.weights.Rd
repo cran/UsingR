@@ -4,8 +4,8 @@
 \title{Weight and height measurement for a sample of U.S. children}
 \description{
   A sample from the data presented in the NHANES III survey
-  (\url{http://www.cdc.gov/nchs/nhanes.htm}). This survey is used to
-  form the CDC Growth Charts (\url{http://www.cdc.gov/growthcharts}) for
+  (\url{https://www.cdc.gov/nchs/nhanes.htm}). This survey is used to
+  form the CDC Growth Charts (\url{https://www.cdc.gov/growthcharts/}) for
   children.
 }
 \usage{data(kid.weights)}
@@ -20,7 +20,7 @@
 }
 \source{
   This data is extracted from  the NHANES III survey:
-  \url{http://www.cdc.gov/nchs/nhanes.htm}.
+  \url{https://www.cdc.gov/nchs/nhanes.htm}.
 }
 \examples{
 data(kid.weights)

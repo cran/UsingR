@@ -13,20 +13,20 @@
   A data frame with 252 observations on the following 19 variables.
   \describe{
     \item{case}{Case Number}
-    \item{body.fat}{Percent body fat using Brozek's equation, 
+    \item{body.fat}{Percent body fat using Brozek's equation,
            457/Density - 414.2}
-    \item{body.fat.siri}{Percent body fat using Siri's equation, 
+    \item{body.fat.siri}{Percent body fat using Siri's equation,
            495/Density - 450}
     \item{density}{Density (gm/cm\eqn{\mbox{\textasciicircum}}{\^}2)}
     \item{age}{Age (yrs)}
     \item{weight}{Weight (lbs)}
     \item{height}{Height (inches)}
     \item{BMI}{Adiposity index = Weight/Height\eqn{\mbox{\textasciicircum}}{^}2 (kg/m\eqn{\mbox{\textasciicircum}}{^}2)}
-    \item{ffweight}{Fat Free Weight 
+    \item{ffweight}{Fat Free Weight
            = (1 - fraction of body fat) * Weight,            using Brozek's formula (lbs)}
     \item{neck}{Neck circumference (cm)}
     \item{chest}{Chest circumference (cm)}
-    \item{abdomen}{Abdomen circumference (cm) "at the umbilicus 
+    \item{abdomen}{Abdomen circumference (cm) "at the umbilicus
            and level with the iliac crest"}
     \item{hip}{Hip circumference (cm)}
     \item{thigh}{Thigh circumference (cm)}
@@ -34,14 +34,14 @@
     \item{ankle}{Ankle circumference (cm)}
     \item{bicep}{Extended biceps circumference (cm)}
     \item{forearm}{Forearm circumference (cm)}
-    \item{wrist}{Wrist circumference (cm) "distal to the 
+    \item{wrist}{Wrist circumference (cm) "distal to the
            styloid processes"}
   }
 }
 
 \details{
 From the source:
-  
+
 \dQuote{The data are as received from Dr. Fisher.  Note, however, that there
 are a few errors.  The body densities for cases 48, 76, and 96, for
 instance, each seem to have one digit in error as can be seen from the
@@ -54,13 +54,13 @@ fat estimates are truncated to zero when negative (case 182).}
 \source{
   This data set comes from the collection of the \emph{Journal of
   Statistics Education} at
-  \url{http://www.amstat.org/publications/jse/datasets/fat.txt}. The
+  \url{http://jse.amstat.org/datasets/fat.txt}. The
   data set was contributed by Roger W. Johnson.
 }
 \references{
   The source of the data is attributed to Dr. A. Garth Fisher, Human
 Performance Research Center, Brigham Young University, Provo, Utah
-84602, 
+84602,
 }
 
 \examples{

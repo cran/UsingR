@@ -17,7 +17,7 @@
 \details{
   This data comes from a collection of the \emph{Journal of Statistics
   Education}. The accompanying documentation says:
-  
+
 \dQuote{Data presented in a newspaper advertisement suggest the use of simple
 linear regression to relate the prices of diamond rings to the weights
 of their diamond stones.  The intercept of the resulting regression line
@@ -28,7 +28,7 @@ of remedial actions.}
 }
 \source{
   This comes from
-  \url{http://www.amstat.org/publications/jse/datasets/diamond.txt}. Data
+  \url{http://jse.amstat.org/datasets/diamond.txt}. Data
   set is contributed by Singfat Chu.
 }
 \examples{

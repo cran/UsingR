@@ -6,7 +6,7 @@
 }
 \description{
 This data set comes from a JSE article
- \url{http://www.amstat.org/publications/jse/v16n3/woodard.pdf} by
+ \url{http://jse.amstat.org/v20n3/woodard.pdf} by
  Roger Woodard. The data is described by: The information for this
  data set was taken from a Wake County, North Carolina real estate
  database. Wake County is home to the capital of North Carolina,
@@ -23,9 +23,9 @@ This data set comes from a JSE article
 \usage{data(wchomes)}
 \format{a data frame}
 \source{
- \url{http://www.amstat.org/publications/jse/v16n3/woodard.xls}
+ https://www.amstat.org/publications/jse/v16n3/woodard.xls (now off-line)
 }
-\references{ \url{http://www.amstat.org/publications/jse/v16n3/woodard.pdf}
+\references{ \url{http://jse.amstat.org/v20n3/woodard.pdf}
 }
 \examples{
 data(wchomes)

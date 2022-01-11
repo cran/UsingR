@@ -12,7 +12,7 @@ A collection of approval ratings for President Obama spanning a duration from ea
   A data frame 7 variables.
 }
 \source{
- Scraped on 7-5-13 from \url{http://www.realclearpolitics.com/epolls/other/president_obama_job_approval-1044.html}
+ Scraped on 7-5-13 from https://www.realclearpolitics.com/epolls/other/president_obama_job_approval-1044.html.
 }
 \examples{
 data(ObamaApproval)
